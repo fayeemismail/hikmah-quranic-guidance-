@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function ExplorePage() {
   return (
-    <div className="py-4 sm:py-8 max-w-lg mx-auto space-y-6">
+    <div className="pt-4 pb-20 sm:py-8 max-w-lg mx-auto space-y-5">
       {/* Header section with explicit wording */}
       <div className="text-center space-y-2.5 px-2">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#163D32]/8 text-[#163D32] border border-[#B69A5A]/30">

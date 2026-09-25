@@ -23,7 +23,12 @@ export const GUIDANCE_THEMES: GuidanceTheme[] = [
     title: "Anxiety & Worry",
     description: "For moments of fear, uncertainty or restlessness.",
     icon: "shield-check",
-    verseIds: ["aw-1", "aw-2", "aw-3", "aw-4"],
+    verseIds: [
+      "aw-1", "aw-2", "aw-3", "aw-4", "aw-5", "aw-6", "aw-7", "aw-8",
+      "aw-9", "aw-10", "aw-11", "aw-12", "aw-13", "aw-14", "aw-15",
+      "aw-16", "aw-17", "aw-18", "aw-19", "aw-20", "aw-21", "aw-22",
+      "aw-23", "aw-24"
+    ],
   },
   {
     id: "financial-difficulty",

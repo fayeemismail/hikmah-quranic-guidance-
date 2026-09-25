@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F8F6F0;
+  --foreground: #1E2723;
+  --primary-dark: #102A24;
+  --deep-green: #163D32;
+  --accent-gold: #B69A5A;
+  --accent-gold-soft: rgba(182, 154, 90, 0.12);
+  --muted-text: #69736E;
+  --card-border: rgba(182, 154, 90, 0.22);
+}
+
+@theme {
+  --color-parchment: #F8F6F0;
+  --color-primary-dark: #102A24;
+  --color-deep-green: #163D32;
+  --color-accent-gold: #B69A5A;
+  --color-text-dark: #1E2723;
+  --color-text-muted: #69736E;
+  --font-arabic: var(--font-amiri), "Amiri", "Traditional Arabic", "Scheherazade New", serif;
+  --font-sans: var(--font-sans), system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background-color: #F8F6F0;
+  color: #1E2723;
+  background-image: 
+    radial-gradient(circle at 100% 0%, rgba(182, 154, 90, 0.04) 0%, transparent 40%),
+    radial-gradient(circle at 0% 100%, rgba(22, 61, 50, 0.03) 0%, transparent 40%),
+    radial-gradient(#d8d2c2 0.75px, transparent 0.75px);
+  background-size: 100% 100%, 100% 100%, 24px 24px;
+}
+
+/* Custom Arabic Qur'an Typography */
+.quran-text {
+  font-family: var(--font-amiri), "Amiri", "Traditional Arabic", "Scheherazade New", serif;
+  direction: rtl;
+  text-align: center;
+  line-height: 2.3;
+  letter-spacing: 0.01em;
+  font-feature-settings: "cv01", "cv02", "liga", "calt";
+  text-rendering: optimizeLegibility;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F6F0;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(182, 154, 90, 0.35);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(182, 154, 90, 0.6);
+}
+
+/* Focus outline for accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid #B69A5A;
+  outline-offset: 2px;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

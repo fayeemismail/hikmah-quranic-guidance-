@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { LuSearch, LuMenu, LuX, LuCompass, LuShieldCheck, LuBookOpen, LuInfo } from "react-icons/lu";
+import Image from "next/image";
 import SearchModal from "./SearchModal";
 
 export default function Navbar() {
@@ -29,10 +30,15 @@ export default function Navbar() {
             className="flex items-center gap-2.5 group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#B69A5A]"
             aria-label="Qur'anic Guidance Home"
           >
-            <div className="w-8 h-8 rounded-lg bg-[#163D32] flex items-center justify-center text-[#B69A5A] shadow-sm group-hover:bg-[#102A24] transition-colors">
-              <span className="font-arabic text-base font-bold select-none leading-none pt-0.5">
-                ن
-              </span>
+            <div className="relative w-8 h-8 rounded-full overflow-hidden border border-[#B69A5A]/40 shadow-xs group-hover:scale-105 transition-transform">
+              <Image
+                src="/icon.jpg"
+                alt="Hikmah Logo Emblem"
+                width={32}
+                height={32}
+                className="w-full h-full object-cover"
+                priority
+              />
             </div>
             <div className="flex flex-col">
               <span className="text-sm font-semibold tracking-wider text-[#102A24] uppercase font-sans">

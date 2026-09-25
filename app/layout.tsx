@@ -61,12 +61,21 @@ export const metadata: Metadata = {
     title: "Hikmah — Qur'anic Guidance for Life's Difficult Moments",
     description:
       "Find solace, direction, and verified Islamic solutions in Qur'anic verses curated for real-life emotional and spiritual challenges.",
+    images: [
+      {
+        url: `${siteUrl}/og-image.jpg`,
+        width: 1200,
+        height: 675,
+        alt: "Hikmah — Qur'anic Guidance for Life's Difficult Moments",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Hikmah — Qur'anic Guidance for Life's Difficult Moments",
     description:
       "Explore curated Qur'anic verses with authentic classical Tafsir, verified context, and grounded spiritual reflections.",
+    images: [`${siteUrl}/og-image.jpg`],
   },
   robots: {
     index: true,
@@ -80,7 +89,18 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/icon.jpg", sizes: "512x512", type: "image/jpeg" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.jpg", sizes: "180x180", type: "image/jpeg" },
+    ],
+  },
+  verification: {
+    google: [
+      "X14dtNhzN2SrysQPlKQd3_yYvAVu-_bbMSitoCSfN44",
+      "L6ibItWe-EBMtG8IV-eaWaUKEde6Ae07x4Sp-nGb7gA",
+    ],
   },
 };
 

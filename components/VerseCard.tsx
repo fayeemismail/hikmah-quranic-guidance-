@@ -5,8 +5,10 @@ import { motion } from "framer-motion";
 import { QuranVerse } from "@/types/guidance";
 import ArabicVerse from "./ArabicVerse";
 import Translation from "./Translation";
+import VerseSummary from "./VerseSummary";
 import VerseContext from "./VerseContext";
 import ScholarlyReferences from "./ScholarlyReferences";
+import HadithReference from "./HadithReference";
 import ReflectionCard from "./ReflectionCard";
 import GuidanceDisclaimer from "./GuidanceDisclaimer";
 import SafetyNotice from "./SafetyNotice";
@@ -91,7 +93,18 @@ export default function VerseCard({
         />
       </motion.div>
 
-      {/* Context (Staged Reveal 5) */}
+      {/* Simple Summary of Meaning */}
+      {verse.summary && (
+        <motion.div
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.45, delay: 0.43, ease: "easeOut" }}
+        >
+          <VerseSummary summary={verse.summary} />
+        </motion.div>
+      )}
+
+      {/* Context */}
       <motion.div
         initial={{ opacity: 0, y: 8 }}
         animate={{ opacity: 1, y: 0 }}
@@ -100,7 +113,7 @@ export default function VerseCard({
         <VerseContext context={verse.context} />
       </motion.div>
 
-      {/* Scholarly References (Staged Reveal 6) */}
+      {/* Scholarly References */}
       {verse.scholarlyReference && (
         <motion.div
           initial={{ opacity: 0, y: 8 }}
@@ -111,7 +124,18 @@ export default function VerseCard({
         </motion.div>
       )}
 
-      {/* Editorial Reflection (Staged Reveal 7) */}
+      {/* Prophetic Narration (Hadith) */}
+      {verse.hadith && (
+        <motion.div
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.45, delay: 0.63, ease: "easeOut" }}
+        >
+          <HadithReference hadith={verse.hadith} />
+        </motion.div>
+      )}
+
+      {/* Editorial Reflection */}
       <motion.div
         initial={{ opacity: 0, y: 8 }}
         animate={{ opacity: 1, y: 0 }}

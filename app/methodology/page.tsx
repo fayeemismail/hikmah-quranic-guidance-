@@ -3,9 +3,26 @@ import type { Metadata } from "next";
 import { LuBookOpen, LuLayers, LuCircleCheck, LuInfo, LuCompass } from "react-icons/lu";
 
 export const metadata: Metadata = {
-  title: "Curatorial Methodology & Content Hierarchy",
+  title: "Curatorial Methodology & Content Hierarchy — Hikmah",
   description:
-    "How Qur'anic passages are selected, verified, and structured across 5 distinct layers of content integrity.",
+    "How Qur'anic passages are selected, verified, and structured across distinct layers: sacred Arabic text, attributed translation, historical context, classical Tafsir, and humble human reflection.",
+  keywords: [
+    "quran curatorial methodology",
+    "tafsir verification",
+    "authentic quran translations",
+    "islamic content integrity",
+    "saheeh international verification",
+  ],
+  alternates: {
+    canonical: "https://hikmah-guidance.vercel.app/methodology",
+  },
+  openGraph: {
+    title: "Curatorial Methodology & Content Integrity | Hikmah",
+    description:
+      "Learn how Qur'anic passages are selected, verified against Uthmanic text, and supplemented with authentic classical scholarship.",
+    url: "https://hikmah-guidance.vercel.app/methodology",
+    type: "website",
+  },
 };
 
 export default function MethodologyPage() {

@@ -5,14 +5,60 @@ import TopicWheelPicker from "@/components/TopicWheelPicker";
 import { LuCompass } from "react-icons/lu";
 
 export const metadata: Metadata = {
-  title: "Explore Guidance — Choose What You're Going Through",
+  title: "Explore Quranic Guidance by Situation — Solutions & Wisdom",
   description:
-    "Choose the situation that feels closest to what you're experiencing. Explore Qur'anic passages curated around that theme.",
+    "Find solutions in Quran verses across 10 life topics: patience, anxiety, sadness, financial difficulty, feeling lost, hardship, and seeking guidance. Browse verified passages with classical Tafsir and authentic Hadith.",
+  keywords: [
+    "solution in quran verse",
+    "guidance in quran",
+    "patience quranic verses",
+    "motivational quran verses",
+    "quranic verses by topic",
+    "solutions to problems in quran",
+    "quran verses for anxiety",
+    "quran verses for patience",
+    "quran verses for sadness",
+    "islamic guidance situations",
+  ],
+  alternates: {
+    canonical: "https://hikmah-guidance.vercel.app/explore",
+  },
+  openGraph: {
+    title: "Explore Quranic Guidance by Situation — Solutions & Wisdom | Hikmah",
+    description:
+      "Select what you are going through to explore verified Qur'anic passages, classical commentary, and authentic prophetic guidance.",
+    url: "https://hikmah-guidance.vercel.app/explore",
+    type: "website",
+  },
 };
 
 export default function ExplorePage() {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://hikmah-guidance.vercel.app",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Explore Guidance",
+        item: "https://hikmah-guidance.vercel.app/explore",
+      },
+    ],
+  };
+
   return (
     <div className="pt-4 pb-20 sm:py-8 max-w-lg mx-auto space-y-5">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
       {/* Header section with explicit wording */}
       <div className="text-center space-y-2.5 px-2">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#163D32]/8 text-[#163D32] border border-[#B69A5A]/30">

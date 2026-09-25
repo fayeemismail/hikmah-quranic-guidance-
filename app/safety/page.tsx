@@ -9,9 +9,26 @@ import {
 } from "react-icons/lu";
 
 export const metadata: Metadata = {
-  title: "Mental Health Safety & Guidance Principles",
+  title: "Mental Health Safety & Guidance Principles — Hikmah",
   description:
-    "Important safety principles: spiritual comfort, medical disclaimer, crisis contacts, and respectful boundaries regarding divine text.",
+    "Important safety principles: spiritual comfort, medical disclaimer, crisis hotlines, and respectful ethical boundaries regarding divine text and mental healthcare.",
+  keywords: [
+    "islamic mental health safety",
+    "spiritual comfort disclaimer",
+    "crisis hotlines muslim",
+    "quran and mental health",
+    "seeking therapy islam",
+  ],
+  alternates: {
+    canonical: "https://hikmah-guidance.vercel.app/safety",
+  },
+  openGraph: {
+    title: "Mental Health Safety & Ethical Guidance Principles | Hikmah",
+    description:
+      "Our commitments to mental health safety, professional care recommendations, crisis resources, and respectful theological boundaries.",
+    url: "https://hikmah-guidance.vercel.app/safety",
+    type: "website",
+  },
 };
 
 export default function SafetyPage() {

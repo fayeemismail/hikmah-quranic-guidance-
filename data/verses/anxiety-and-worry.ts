@@ -14,18 +14,23 @@ export const anxietyAndWorryVerses: QuranVerse[] = [
     arabic:
       "ٱلَّذِينَ ءَامَنُوا۟ وَتَطْمَئِنُّ قُلُوبُهُم بِذِكْرِ ٱللَّهِ ۗ أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ",
     translation: {
-      text: "Those who have believed and whose hearts are assured by the remembrance of Allah. Unquestionably, by the remembrance of Allah hearts are assured.",
+      text:
+        "Those who have believed and whose hearts are assured by the remembrance of Allah. Unquestionably, by the remembrance of Allah hearts are assured.",
       source: "Saheeh International",
     },
+    summary:
+      "This verse teaches that true inner peace and steady reassurance are found through remembering Allah, offering comfort when the heart feels restless or troubled.",
     context:
-      "Contrasting the turbulence of worldly distractions with the profound restfulness found in conscious mindfulness of the Divine.",
+      "Contrasting worldly distractions with the profound spiritual restfulness found when believers maintain conscious awareness of the Creator.",
     scholarlyReference: {
       source: "Tafsir Ibn Kathir",
+      reference: "Surah Ar-Ra'd (13:28)",
       summary:
-        "Ibn Kathir notes that the heart sheds restlessness and finds genuine tranquility when anchored in remembering Allah's majesty and kindness.",
+        "Ibn Kathir explains that the human heart sheds restlessness and finds genuine tranquility when anchored in the remembrance of Allah's majesty and mercy.",
     },
+    hadith: null,
     reflection:
-      "When racing thoughts overwhelm the mind with imagined catastrophes, pausing to breathe and grounding yourself in quiet spiritual remembrance can calm the nervous system.",
+      "When thoughts become restless and worry begins to build, taking time for quiet remembrance of Allah can help bring spiritual grounding and perspective.",
     themes: ["anxiety-and-worry"],
   },
   {
@@ -42,18 +47,23 @@ export const anxietyAndWorryVerses: QuranVerse[] = [
     arabic:
       "قَالَ رَبِّ ٱشْرَحْ لِى صَدْرِى ۝ وَيَسِّرْ لِىٓ أَمْرِى ۝ وَٱحْلُلْ عُقْدَةً مِّن لِّسَانِى ۝ يَفْقَهُوا۟ قَوْلِى",
     translation: {
-      text: "[Moses] said, 'My Lord, expand for me my breast [with assurance], and ease for me my task, and untie the knot from my tongue, that they may understand my speech.'",
+      text:
+        "[Moses] said, 'My Lord, expand for me my breast [with assurance], and ease for me my task, and untie the knot from my tongue, that they may understand my speech.'",
       source: "Saheeh International",
     },
+    summary:
+      "Prophet Moses prays for emotional composure, courage, and divine ease before facing a daunting and difficult responsibility.",
     context:
-      "The Prophet Musa (Moses) tasked with confronting Pharaoh, asking for courage, relief from chest constriction, and clarity of communication.",
+      "Prophet Moses (Musa) was commanded to confront Pharaoh, a task fraught with danger and responsibility, prompting him to seek courage and clarity from Allah.",
     scholarlyReference: {
       source: "Tafsir at-Tabari",
+      reference: "Surah Taha (20:25)",
       summary:
-        "At-Tabari describes 'expansion of the chest' as praying for tranquility, courage, and liberation from fear and distress before a momentous responsibility.",
+        "At-Tabari describes 'expansion of the breast' as praying for tranquility, courage, and relief from distress before a momentous responsibility.",
     },
+    hadith: null,
     reflection:
-      "Even great messengers experienced the visceral weight of anxiety before daunting tasks. Acknowledging our worries and praying for ease helps channel apprehension into focused purpose.",
+      "When facing an intimidating task or feeling the weight of a difficult conversation, turning to Allah in sincere prayer reminds us that ease and courage come from Him.",
     themes: ["anxiety-and-worry"],
   },
   {
@@ -69,18 +79,30 @@ export const anxietyAndWorryVerses: QuranVerse[] = [
     arabic:
       "ٱلَّذِينَ قَالَ لَهُمُ ٱلنَّاسُ إِنَّ ٱلنَّاسَ قَدْ جَمَعُوا۟ لَكُمْ فَٱخْشَوْهُمْ فَزَادَهُمْ إِيمَـٰنًا وَقَالُوا۟ حَسْبُنَا ٱللَّهُ وَنِعْمَ ٱلْوَكِيلُ",
     translation: {
-      text: "Those to whom the people said, 'Indeed, the people have gathered against you, so fear them.' But it [only] increased them in faith, and they said, 'Sufficient for us is Allah, and [He is] the best Disposer of affairs.'",
+      text:
+        "Those to whom the people said, 'Indeed, the people have gathered against you, so fear them.' But it [only] increased them in faith, and they said, 'Sufficient for us is Allah, and [He is] the best Disposer of affairs.'",
       source: "Saheeh International",
     },
+    summary:
+      "When faced with alarming reports meant to cause panic, the believers placed their trust in Allah, declaring that He is sufficient to protect and guide them.",
     context:
-      "Following the battle of Uhud, when intimidating reports were circulated to instill panic within the early Muslim community.",
+      "Following the battle of Uhud, reports were circulated to instill panic in the Muslim community at Hamra' al-Asad.",
     scholarlyReference: {
-      source: "Sahih al-Bukhari & Tafsir Ibn Kathir",
+      source: "Tafsir Ibn Kathir",
+      reference: "Surah Ali 'Imran (3:173)",
       summary:
-        "Ibn Kathir records that Ibrahim uttered these words when cast into the fire, and Muhammad uttered them when confronted by overwhelming threats.",
+        "Ibn Kathir notes that turning to Allah with full reliance when confronted by intimidation dispels fear and preserves moral resolve.",
+    },
+    hadith: {
+      collection: "Sahih al-Bukhari",
+      reference: "Hadith 4563",
+      text:
+        "Ibn 'Abbas said: 'Sufficient for us is Allah, and He is the best Disposer of affairs' was said by Abraham when he was thrown into the fire; and it was said by Muhammad when they said: 'Indeed, the people have gathered against you, so fear them' but it increased them in faith.",
+      relevance:
+        "Documents the prophetic tradition of seeking refuge in reliance upon Allah when facing acute fear and external threats.",
     },
     reflection:
-      "Relinquishing the agonizing attempt to control all future variables by placing trust in the ultimate guardian grants the mind rest from anticipatory panic.",
+      "When uncertain news or external pressures trigger apprehension, affirming that Allah is the guardian of your affairs can steady the heart against panic.",
     themes: ["anxiety-and-worry"],
   },
   {
@@ -96,18 +118,23 @@ export const anxietyAndWorryVerses: QuranVerse[] = [
     arabic:
       "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ",
     translation: {
-      text: "Allah does not charge a soul except [with that within] its capacity. It will have [the consequence of] what [good] it has gained, and it will bear [the consequence of] what [evil] it has earned...",
+      text:
+        "Allah does not charge a soul except [with that within] its capacity. It will have [the consequence of] what [good] it has gained, and it will bear [the consequence of] what [evil] it has earned...",
       source: "Saheeh International",
     },
+    summary:
+      "This passage establishes that Allah never burdens any human being beyond what they are genuinely equipped to bear.",
     context:
-      "The concluding principle of the Qur'an's second chapter, establishing divine justice, equity, and compassionate regard for human limits.",
+      "The concluding verse of Surah Al-Baqarah, providing reassurance of divine justice, equity, and compassionate regard for human limits.",
     scholarlyReference: {
       source: "Tafsir Ibn Kathir",
+      reference: "Surah Al-Baqarah (2:286)",
       summary:
-        "Ibn Kathir clarifies that Allah does not burden any soul beyond what it is naturally equipped to navigate and bear through spiritual and moral effort.",
+        "Ibn Kathir clarifies that Allah does not burden any soul with trials or duties beyond its natural human capability.",
     },
+    hadith: null,
     reflection:
-      "When responsibilities and fears feel impossible to shoulder, remember that you are never expected to carry what lies truly beyond your real human capability.",
+      "When responsibilities and fears feel overwhelming, this verse offers reassurance that your Creator knows your limits and does not expect what lies truly beyond you.",
     themes: ["anxiety-and-worry"],
   },
   {
@@ -124,18 +151,22 @@ export const anxietyAndWorryVerses: QuranVerse[] = [
       "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ",
     translation: {
       text:
-        "O believers, seek help through patience and prayer. Indeed, Allah is with the patient.",
+        "O you who have believed, seek help through patience and prayer. Indeed, Allah is with the patient.",
       source: "Saheeh International",
     },
+    summary:
+      "Believers are directed to seek strength and stability through patient endurance and prayer during times of trial, with the assurance of Allah's support.",
     context:
-      "The verse directs believers toward patience and prayer when facing difficulty and trials.",
+      "Preparing the early Muslim community for forthcoming life trials and difficulties, establishing patience and prayer as essential spiritual anchors.",
     scholarlyReference: {
       source: "Tafsir Ibn Kathir",
+      reference: "Surah Al-Baqarah (2:153)",
       summary:
-        "The verse emphasizes seeking strength through patience and prayer and highlights Allah's support for those who remain patient.",
+        "Ibn Kathir explains that pairing patience with prayer provides essential strength to navigate life's distress and uncertainty.",
     },
+    hadith: null,
     reflection:
-      "When worry becomes overwhelming, this verse reminds us to return to patience, prayer and reliance upon Allah.",
+      "When worry threatens to overwhelm your thoughts, pausing to pray and choosing patient restraint can help restore calm and perspective.",
     themes: ["anxiety-and-worry"],
   },
   {
@@ -150,81 +181,36 @@ export const anxietyAndWorryVerses: QuranVerse[] = [
       end: 157,
     },
     arabic:
-      "وَلَنَبْلُوَنَّكُم بِشَىْءٍۢ مِّنَ ٱلْخَوْفِ وَٱلْجُوعِ وَنَقْصٍۢ مِّنَ ٱلْأَمْوَٰلِ وَٱلْأَنفُسِ وَٱلثَّمَرَٰتِ ۗ وَبَشِّرِ ٱلصَّٰبِرِينَ  ٱلَّذِينَ إِذَآ أَصَٰبَتْهُم مُّصِيبَةٌۭ قَالُوٓا۟ إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ  أُو۟لَٰٓئِكَ عَلَيْهِمْ صَلَوَٰتٌۭ مِّن رَّبِّهِمْ وَرَحْمَةٌۭ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُهْتَدُونَ",
+      "وَلَنَبْلُوَنَّكُم بِشَىْءٍۢ مِّنَ ٱلْخَوْفِ وَٱلْجُوعِ وَنَقْصٍۢ مِّنَ ٱلْأَمْوَٰلِ وَٱلْأَنفُسِ وَٱلثَّمَرَٰتِ ۗ وَبَشِّرِ ٱلصَّٰبِرِينَ ۝ ٱلَّذِينَ إِذَآ أَصَٰبَتْهُم مُّصِيبَةٌۭ قَالُوٓا۟ إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ ۝ أُو۟لَٰٓئِكَ عَلَيْهِمْ صَلَوَٰتٌۭ مِّن رَّبِّهِمْ وَرَحْمَةٌۭ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُهْتَدُونَ",
     translation: {
       text:
-        "Believers will be tested with fear, hunger and loss, and those who remain patient are given glad tidings, mercy and guidance.",
-      source: "English meaning based on Saheeh International",
+        "And We will surely test you with something of fear and hunger and a loss of wealth and lives and fruits, but give good tidings to the patient, who, when disaster strikes them, say, 'Indeed we belong to Allah, and indeed to Him we will return.' Those are the ones upon whom are blessings from their Lord and mercy. And it is those who are the [rightly] guided.",
+      source: "Saheeh International",
     },
+    summary:
+      "This passage acknowledges that experiencing fear, hunger, and loss is part of the human journey, and promises divine mercy and guidance to those who remain patient.",
     context:
-      "These verses acknowledge that fear, loss and hardship are part of the trials believers may encounter.",
+      "These verses teach that fear and loss are real human experiences rather than anomalies, instructing believers on responding with faith.",
     scholarlyReference: {
       source: "Tafsir Ibn Kathir",
+      reference: "Surah Al-Baqarah (2:155-157)",
       summary:
-        "Ibn Kathir explains these verses in relation to the tests believers encounter and the patience, response and reward associated with them.",
+        "Ibn Kathir explains that declaring that we belong to Allah in moments of distress brings solace, divine mercy, and steady guidance.",
+    },
+    hadith: {
+      collection: "Sahih Muslim",
+      reference: "Hadith 918",
+      text:
+        "Umm Salamah reported: I heard the Messenger of Allah say: 'No Muslim is stricken with a calamity and says what Allah has commanded: Indeed we belong to Allah and indeed to Him we will return; O Allah, reward me in my affliction and replace it with something better for me, except that Allah compensates him with something better.'",
+      relevance:
+        "Provides prophetic instruction on responding to distressing events with patience and hope.",
     },
     reflection:
-      "The Qur'an acknowledges fear and loss rather than pretending that difficult emotions and trials do not exist.",
+      "The Qur'an acknowledges fear and hardship openly. Recognizing that difficult emotions are a normal part of life helps relieve the added burden of self-judgment.",
     themes: ["anxiety-and-worry"],
   },
   {
     id: "aw-7",
-    surah: {
-      number: 3,
-      nameArabic: "آل عمران",
-      nameEnglish: "Ali 'Imran",
-    },
-    ayah: {
-      start: 139,
-    },
-    arabic:
-      "وَلَا تَهِنُوا۟ وَلَا تَحْزَنُوا۟ وَأَنتُمُ ٱلْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ",
-    translation: {
-      text:
-        "Do not weaken and do not grieve; you will have the upper hand if you are believers.",
-      source: "Saheeh International",
-    },
-    context:
-      "The believers were addressed after hardship and loss, encouraging them not to lose heart.",
-    scholarlyReference: {
-      source: "Tafsir Ibn Kathir",
-      summary:
-        "The verse encourages believers not to become weak or overwhelmed by grief after hardship.",
-    },
-    reflection:
-      "When disappointment makes you feel defeated, this verse offers a reminder not to let hardship remove your hope and resolve.",
-    themes: ["anxiety-and-worry"],
-  },
-  {
-    id: "aw-8",
-    surah: {
-      number: 3,
-      nameArabic: "آل عمران",
-      nameEnglish: "Ali 'Imran",
-    },
-    ayah: {
-      start: 200,
-    },
-    arabic:
-      "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱصْبِرُوا۟ وَصَابِرُوا۟ وَرَابِطُوا۟ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ",
-    translation: {
-      text:
-        "O believers, be patient, persevere, remain steadfast, and be mindful of Allah so that you may succeed.",
-      source: "English meaning based on Saheeh International",
-    },
-    context:
-      "The closing verse of Surah Ali 'Imran calls believers toward patience, perseverance and steadfastness.",
-    scholarlyReference: {
-      source: "Tafsir Ibn Kathir",
-      summary:
-        "The verse gathers together patience, perseverance, steadfastness and taqwa as qualities of the believers.",
-    },
-    reflection:
-      "When anxiety makes the future feel too large, focus on remaining patient and steadfast in the step immediately before you.",
-    themes: ["anxiety-and-worry"],
-  },
-  {
-    id: "aw-9",
     surah: {
       number: 9,
       nameArabic: "التوبة",
@@ -234,25 +220,36 @@ export const anxietyAndWorryVerses: QuranVerse[] = [
       start: 40,
     },
     arabic:
-      "إِلَّا تَنصُرُوهُ فَقَدْ نَصَرَهُ ٱللَّهُ إِذْ أَخْرَجَهُ ٱلَّذِينَ كَفَرُوا۟ ثَانِىَ ٱثْنَيْنِ إِذْ هُمَا فِى ٱلْغَارِ إِذْ يَقُولُ لِصَٰحِبِهِۦ لَا تَحْزَنْ إِنَّ ٱللَّهَ مَعَنَا ۖ فَأَنزَلَ ٱللَّهُ سَكِينَتَهُۥ عَلَيْهِ وَأَيَّدَهُۥ بِجُنُودٍۢ لَّمْ تَرَوْهَا",
+      "إِلَّا تَنصُرُوهُ فَقَدْ نَصَرَهُ ٱللَّهُ إِذْ أَخْرَجَهُ ٱلَّذِينَ كَفَرُوا۟ ثَانِىَ ٱثْنَيْنِ إِذْ هُمَا فِى ٱلْغَارِ إِذْ يَقُولُ لِصَٰحِبِهِۦ لَا تَحْزَنْ إِنَّ ٱللَّهَ مَعَنَا ۖ فَأَنزَلَ ٱللَّهُ سَكِينَتَهُۥ عَلَيْهِ",
     translation: {
       text:
-        "Do not grieve; indeed Allah is with us. Then Allah sent down His tranquility upon him and supported him with forces you did not see.",
-      source: "English meaning based on Saheeh International",
+        "...When he said to his companion, 'Do not grieve; indeed Allah is with us.' And Allah sent down His tranquility upon him and supported him with forces you did not see...",
+      source: "Saheeh International",
     },
+    summary:
+      "During a moment of great danger and vulnerability in the cave, the Prophet reassures his companion of Allah's presence, and divine tranquility descends upon them.",
     context:
-      "This refers to the Prophet Muhammad and his companion during their migration from Makkah when they were in the cave.",
+      "During the migration from Makkah to Madinah, the Prophet and Abu Bakr were sheltered in the cave of Thawr while pursuers stood directly outside.",
     scholarlyReference: {
       source: "Tafsir Ibn Kathir",
+      reference: "Surah At-Tawbah (9:40)",
       summary:
-        "The passage describes the Prophet's companion being reassured during a moment of danger and Allah's granting of tranquility and support.",
+        "Ibn Kathir notes that divine presence and the granting of 'sakinah' (calm composure) transformed a moment of acute danger into deep spiritual peace.",
+    },
+    hadith: {
+      collection: "Sahih al-Bukhari",
+      reference: "Hadith 3653",
+      text:
+        "Abu Bakr said: I saw the feet of the polytheists very close to us as we were in the cave... The Prophet said: 'What do you think, O Abu Bakr, of two whose third is Allah?'",
+      relevance:
+        "Documents the historical moment of intense anxiety and the Prophet's calm reassurance of Allah's protection.",
     },
     reflection:
-      "In moments when fear makes circumstances feel overwhelming, this passage recalls the importance of trust in Allah's presence and support.",
+      "In situations where fear makes circumstances feel overwhelming, remembering that Allah is with those who rely upon Him can help quiet the mind.",
     themes: ["anxiety-and-worry"],
   },
   {
-    id: "aw-10",
+    id: "aw-8",
     surah: {
       number: 10,
       nameArabic: "يونس",
@@ -265,50 +262,26 @@ export const anxietyAndWorryVerses: QuranVerse[] = [
       "أَلَآ إِنَّ أَوْلِيَآءَ ٱللَّهِ لَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
     translation: {
       text:
-        "Unquestionably, the allies of Allah will have no fear concerning them, nor will they grieve.",
+        "Unquestionably, [for] the allies of Allah there will be no fear concerning them, nor will they grieve.",
       source: "Saheeh International",
     },
+    summary:
+      "This verse reassures those devoted to Allah that they are protected from paralyzing fear of the future and debilitating sorrow over the past.",
     context:
-      "The verse describes the honored state of Allah's devoted servants and reassures them concerning fear and grief.",
+      "Addressing the believers with reassurance regarding divine favor, contrasting the security of faith with the anxiety of disbelief.",
     scholarlyReference: {
-      source: "Tafsir Ibn Kathir",
+      source: "Tafsir as-Sa'di",
+      reference: "Surah Yunus (10:62)",
       summary:
-        "The verse describes Allah's devoted servants and the reassurance and security associated with their faith.",
+        "As-Sa'di explains that faith and mindfulness of Allah grant the heart spiritual security against overwhelming fear of what lies ahead.",
     },
+    hadith: null,
     reflection:
-      "Fear of what lies ahead and grief over what has passed can weigh heavily on the heart; this passage points toward the reassurance connected with faith.",
+      "Much of human worry stems from anticipating potential future harms. Cultivating closeness to Allah helps ground the heart in current duty and spiritual trust.",
     themes: ["anxiety-and-worry"],
   },
   {
-    id: "aw-11",
-    surah: {
-      number: 13,
-      nameArabic: "الرعد",
-      nameEnglish: "Ar-Ra'd",
-    },
-    ayah: {
-      start: 28,
-    },
-    arabic:
-      "ٱلَّذِينَ ءَامَنُوا۟ وَتَطْمَئِنُّ قُلُوبُهُم بِذِكْرِ ٱللَّهِ ۗ أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ",
-    translation: {
-      text:
-        "Those who believe and whose hearts find rest in the remembrance of Allah. Surely in the remembrance of Allah do hearts find rest.",
-      source: "Saheeh International",
-    },
-    context:
-      "The verse connects remembrance of Allah with tranquility of the heart.",
-    scholarlyReference: {
-      source: "Tafsir Ibn Kathir",
-      summary:
-        "Ibn Kathir explains the verse as describing the tranquility and reassurance found by believers through remembrance of Allah.",
-    },
-    reflection:
-      "When thoughts become restless, remembrance can become a deliberate moment to turn the heart back toward Allah.",
-    themes: ["anxiety-and-worry"],
-  },
-  {
-    id: "aw-12",
+    id: "aw-9",
     surah: {
       number: 14,
       nameArabic: "إبراهيم",
@@ -321,106 +294,26 @@ export const anxietyAndWorryVerses: QuranVerse[] = [
       "وَمَا لَنَآ أَلَّا نَتَوَكَّلَ عَلَى ٱللَّهِ وَقَدْ هَدَىٰنَا سُبُلَنَا ۚ وَلَنَصْبِرَنَّ عَلَىٰ مَآ ءَاذَيْتُمُونَا ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُتَوَكِّلُونَ",
     translation: {
       text:
-        "Why should we not rely upon Allah when He has guided us to our ways? We will surely be patient with your harm. And upon Allah let those who rely [truly] rely.",
-      source: "English meaning based on Saheeh International",
+        "And why should we not rely upon Allah while He has guided us to our ways? And we will surely be patient against whatever harm you should cause us. And upon Allah let those who would rely [indeed] rely.",
+      source: "Saheeh International",
     },
+    summary:
+      "The messengers express unwavering reliance upon Allah, recalling past guidance as reason to face current uncertainty with steadfast patience.",
     context:
-      "The messengers respond to opposition by affirming their reliance upon Allah and their determination to remain patient.",
+      "Messengers responding to hostility and threats from their people, choosing patient trust in Allah over intimidation.",
     scholarlyReference: {
       source: "Tafsir Ibn Kathir",
+      reference: "Surah Ibrahim (14:12)",
       summary:
-        "The passage emphasizes tawakkul, patience and reliance upon Allah in the face of opposition and hardship.",
+        "Ibn Kathir emphasizes that recalling past guidance and blessings gives the believer strength to face upcoming uncertainties with patience.",
     },
+    hadith: null,
     reflection:
-      "Not every uncertainty can be controlled. Tawakkul reminds a believer to place trust in Allah while continuing to act responsibly.",
+      "When the road ahead appears uncertain, reflecting on how you have been guided through past challenges can help you place trust in Allah for what is to come.",
     themes: ["anxiety-and-worry"],
   },
   {
-    id: "aw-13",
-    surah: {
-      number: 16,
-      nameArabic: "النحل",
-      nameEnglish: "An-Nahl",
-    },
-    ayah: {
-      start: 97,
-    },
-    arabic:
-      "مَنْ عَمِلَ صَٰلِحًۭا مِّن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌۭ فَلَنُحْيِيَنَّهُۥ حَيَوٰةًۭ طَيِّبَةًۭ ۖ وَلَنَجْزِيَنَّهُمْ أَجْرَهُم بِأَحْسَنِ مَا كَانُوا۟ يَعْمَلُونَ",
-    translation: {
-      text:
-        "Whoever does righteousness, whether male or female, while being a believer, We will surely grant them a good life and reward them according to the best of what they used to do.",
-      source: "English meaning based on Saheeh International",
-    },
-    context:
-      "The verse describes the promise associated with righteous action accompanied by faith.",
-    scholarlyReference: {
-      source: "Tafsir Ibn Kathir",
-      summary:
-        "The verse describes the good life and reward associated with faith and righteous deeds.",
-    },
-    reflection:
-      "When life feels unsettled, returning to sincere faith and righteous action can provide a meaningful direction for the present moment.",
-    themes: ["anxiety-and-worry"],
-  },
-  {
-    id: "aw-14",
-    surah: {
-      number: 17,
-      nameArabic: "الإسراء",
-      nameEnglish: "Al-Isra",
-    },
-    ayah: {
-      start: 82,
-    },
-    arabic:
-      "وَنُنَزِّلُ مِنَ ٱلْقُرْءَانِ مَا هُوَ شِفَآءٌۭ وَرَحْمَةٌۭ لِّلْمُؤْمِنِينَ ۙ وَلَا يَزِيدُ ٱلظَّٰلِمِينَ إِلَّا خَسَارًۭا",
-    translation: {
-      text:
-        "We send down the Qur'an as healing and mercy for the believers, but it only increases the wrongdoers in loss.",
-      source: "English meaning based on Saheeh International",
-    },
-    context:
-      "The verse describes the Qur'an as a source of healing and mercy for believers.",
-    scholarlyReference: {
-      source: "Tafsir Ibn Kathir",
-      summary:
-        "Ibn Kathir explains the Qur'an's role as healing and mercy, particularly in relation to the diseases of the heart.",
-    },
-    reflection:
-      "The Qur'an can be approached as a source of spiritual reflection, mercy and guidance during difficult seasons.",
-    themes: ["anxiety-and-worry"],
-  },
-  {
-    id: "aw-15",
-    surah: {
-      number: 29,
-      nameArabic: "العنكبوت",
-      nameEnglish: "Al-Ankabut",
-    },
-    ayah: {
-      start: 69,
-    },
-    arabic:
-      "وَٱلَّذِينَ جَٰهَدُوا۟ فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا ۚ وَإِنَّ ٱللَّهَ لَمَعَ ٱلْمُحْسِنِينَ",
-    translation: {
-      text:
-        "Those who strive for Our sake, We will surely guide them to Our ways. And indeed Allah is with those who do good.",
-      source: "English meaning based on Saheeh International",
-    },
-    context:
-      "The verse concludes the surah with a promise of guidance and Allah's support for those who strive in His cause.",
-    scholarlyReference: {
-      source: "Tafsir Ibn Kathir",
-      summary:
-        "The verse emphasizes striving in obedience to Allah and the guidance that accompanies sincere effort.",
-    },
-    reflection:
-      "When uncertainty makes you unsure where to begin, focus on sincere effort and ask Allah for guidance toward what is right.",
-    themes: ["anxiety-and-worry"],
-  },
-  {
-    id: "aw-16",
+    id: "aw-10",
     surah: {
       number: 33,
       nameArabic: "الأحزاب",
@@ -433,50 +326,26 @@ export const anxietyAndWorryVerses: QuranVerse[] = [
       "وَتَوَكَّلْ عَلَى ٱللَّهِ ۚ وَكَفَىٰ بِٱللَّهِ وَكِيلًۭا",
     translation: {
       text:
-        "And rely upon Allah; sufficient is Allah as Disposer of affairs.",
+        "And rely upon Allah; and sufficient is Allah as Disposer of affairs.",
       source: "Saheeh International",
     },
+    summary:
+      "The verse instructs believers to place their trust in Allah and remember that He is completely sufficient as a guardian and disposer of all matters.",
     context:
-      "The verse instructs the Prophet to rely upon Allah while carrying out his responsibility.",
+      "Instructing the Prophet and the community during periods of heavy social and political pressure to remain steadfast and rely on Allah.",
     scholarlyReference: {
       source: "Tafsir Ibn Kathir",
+      reference: "Surah Al-Ahzab (33:3)",
       summary:
-        "The verse emphasizes reliance upon Allah and entrusting one's affairs to Him.",
+        "Ibn Kathir explains that true reliance entails taking practical means while entrusting the ultimate outcomes entirely to Allah.",
     },
+    hadith: null,
     reflection:
-      "Tawakkul does not mean abandoning effort; it means taking the means available to you while entrusting the outcome to Allah.",
+      "Worry often grows when we try to control outcomes beyond our reach. Do what is responsibly in your power today, and entrust the rest to Allah.",
     themes: ["anxiety-and-worry"],
   },
   {
-    id: "aw-17",
-    surah: {
-      number: 39,
-      nameArabic: "الزمر",
-      nameEnglish: "Az-Zumar",
-    },
-    ayah: {
-      start: 53,
-    },
-    arabic:
-      "قُلْ يَٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا۟ عَلَىٰٓ أَنفُسِهِمْ لَا تَقْنَطُوا۟ مِن رَّحْمَةِ ٱللَّهِ ۚ إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
-    translation: {
-      text:
-        "Do not despair of the mercy of Allah. Indeed, Allah forgives all sins. Indeed, He is the Most Forgiving, the Most Merciful.",
-      source: "Saheeh International",
-    },
-    context:
-      "This verse calls those who have transgressed against themselves not to despair of Allah's mercy.",
-    scholarlyReference: {
-      source: "Tafsir Ibn Kathir",
-      summary:
-        "The verse contains a profound call to repentance and hope in Allah's forgiveness and mercy.",
-    },
-    reflection:
-      "Guilt can sometimes turn into despair. This verse reminds the believer that despair should not close the door to Allah's mercy.",
-    themes: ["anxiety-and-worry"],
-  },
-  {
-    id: "aw-18",
+    id: "aw-11",
     surah: {
       number: 57,
       nameArabic: "الحديد",
@@ -487,25 +356,29 @@ export const anxietyAndWorryVerses: QuranVerse[] = [
       end: 23,
     },
     arabic:
-      "مَآ أَصَابَ مِن مُّصِيبَةٍۢ فِى ٱلْأَرْضِ وَلَا فِىٓ أَنفُسِكُمْ إِلَّا فِى كِتَٰبٍۢ مِّن قَبْلِ أَن نَّبْرَأَهَآ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌۭ  لِّكَيْلَا تَأْسَوْا۟ عَلَىٰ مَا فَاتَكُمْ وَلَا تَفْرَحُوا۟ بِمَآ ءَاتَىٰكُمْ ۗ وَٱللَّهُ لَا يُحِبُّ كُلَّ مُخْتَالٍۢ فَخُورٍ",
+      "مَآ أَصَابَ مِن مُّصِيبَةٍۢ فِى ٱلْأَرْضِ وَلَا فِىٓ أَنفُسِكُمْ إِلَّا فِى كِتَٰبٍۢ مِّن قَبْلِ أَن نَّبْرَأَهَآ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌۭ ۝ لِّكَيْلَا تَأْسَوْا۟ عَلَىٰ مَا فَاتَكُمْ وَلَا تَفْرَحُوا۟ بِمَآ ءَاتَىٰكُمْ",
     translation: {
       text:
-        "No disaster occurs except that it is recorded before We bring it into existence, so that you may not despair over what has escaped you nor exult over what you have received.",
-      source: "English meaning based on Saheeh International",
+        "No disaster strikes upon the earth or among yourselves except that it is in a register before We bring it into being - indeed that, for Allah, is easy - In order that you not despair over what has eluded you and not exult [in pride] over what He has given you...",
+      source: "Saheeh International",
     },
+    summary:
+      "This passage explains that life events are encompassed in divine knowledge, helping believers maintain balance without despairing over loss or panicking about the future.",
     context:
-      "These verses teach believers about Allah's knowledge and decree in relation to events that affect people.",
+      "Providing perspective on worldly trials and shifts, encouraging an even-minded disposition through life's fluctuations.",
     scholarlyReference: {
       source: "Tafsir Ibn Kathir",
+      reference: "Surah Al-Hadid (57:22-23)",
       summary:
-        "The passage teaches believers to recognize Allah's decree and maintain balance rather than being consumed by grief over what is lost.",
+        "Ibn Kathir notes that knowing events occur by divine decree protects the heart from paralyzing regret and excessive anxiety.",
     },
+    hadith: null,
     reflection:
-      "Some worries come from repeatedly replaying what has happened or fearing what might happen. These verses invite a believer to place events within the larger reality of Allah's decree.",
+      "Much anxiety is rooted in replaying past mistakes or dreading future losses. Recognizing that outcomes rest within Allah's knowledge can help free you from repetitive worry.",
     themes: ["anxiety-and-worry"],
   },
   {
-    id: "aw-19",
+    id: "aw-12",
     surah: {
       number: 64,
       nameArabic: "التغابن",
@@ -518,22 +391,26 @@ export const anxietyAndWorryVerses: QuranVerse[] = [
       "مَآ أَصَابَ مِن مُّصِيبَةٍ إِلَّا بِإِذْنِ ٱللَّهِ ۗ وَمَن يُؤْمِنۢ بِٱللَّهِ يَهْدِ قَلْبَهُۥ ۚ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌۭ",
     translation: {
       text:
-        "No disaster strikes except by permission of Allah. And whoever believes in Allah, He will guide his heart. And Allah is Knowing of all things.",
-      source: "English meaning based on Saheeh International",
+        "No disaster strikes except by permission of Allah. And whoever believes in Allah - He will guide his heart. And Allah is Knowing of all things.",
+      source: "Saheeh International",
     },
+    summary:
+      "This verse teaches that difficulties happen with divine permission, and that whoever maintains faith during trials will have their heart guided to steadiness.",
     context:
-      "The verse connects trials, belief in Allah and guidance of the heart.",
+      "Reassuring believers experiencing unexpected personal trials that faith brings inner steadiness and guidance.",
     scholarlyReference: {
       source: "Tafsir Ibn Kathir",
+      reference: "Surah At-Taghabun (64:11)",
       summary:
-        "The verse teaches that faith in Allah during calamity is connected with guidance and steadiness of the heart.",
+        "Ibn Kathir cites the classical scholar 'Alqamah, explaining that when a believer faces calamity with faith, Allah guides their heart to calmness and acceptance.",
     },
+    hadith: null,
     reflection:
-      "When circumstances are outside your control, turning toward Allah can help you approach the situation with faith rather than complete helplessness.",
+      "When unexpected difficulties disrupt your sense of control, turning toward Allah with faith can help you meet the moment with steadiness rather than panic.",
     themes: ["anxiety-and-worry"],
   },
   {
-    id: "aw-20",
+    id: "aw-13",
     surah: {
       number: 65,
       nameArabic: "الطلاق",
@@ -544,25 +421,29 @@ export const anxietyAndWorryVerses: QuranVerse[] = [
       end: 3,
     },
     arabic:
-      "وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مَخْرَجًۭا  وَيَرْزُقْهُۥ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَهُوَ حَسْبُهُۥٓ ۚ إِنَّ ٱللَّهَ بَٰلِغُ أَمْرِهِۦ ۚ قَدْ جَعَلَ ٱللَّهُ لِكُلِّ شَىْءٍۢ قَدْرًۭا",
+      "وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مَخْرَجًۭا ۝ وَيَرْزُقْهُۥ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَهُوَ حَسْبُهُۥٓ",
     translation: {
       text:
-        "Whoever is mindful of Allah, He will make a way out for them and provide for them from where they do not expect. Whoever relies upon Allah, He is sufficient for them.",
-      source: "English meaning based on Saheeh International",
+        "...And whoever fears Allah - He will make for him a way out, and will provide for him from where he does not expect. And whoever relies upon Allah - then He is sufficient for him...",
+      source: "Saheeh International",
     },
+    summary:
+      "Allah promises that those who remain mindful of Him will be granted a way out of difficulty, provided for from unexpected sources, and that He is sufficient for them.",
     context:
-      "These verses occur in guidance concerning divorce and emphasize taqwa, a way out, provision and reliance upon Allah.",
+      "Revealed during guidelines concerning divorce and family hardship, moments often marked by acute financial, emotional, and social anxiety.",
     scholarlyReference: {
       source: "Tafsir Ibn Kathir",
+      reference: "Surah At-Talaq (65:2-3)",
       summary:
-        "The passage emphasizes taqwa and tawakkul and describes Allah providing a way out and provision for those who rely upon Him.",
+        "Ibn Kathir explains that upholding mindfulness of Allah (Taqwa) during stressful crises opens pathways of relief that ordinary calculations could not predict.",
     },
+    hadith: null,
     reflection:
-      "When the path ahead seems unclear, this passage encourages taqwa and reliance upon Allah while continuing to deal with circumstances responsibly.",
+      "When anxiety makes a situation seem entirely blocked, this passage encourages ethical integrity and trust that relief can come from avenues you cannot currently see.",
     themes: ["anxiety-and-worry"],
   },
   {
-    id: "aw-21",
+    id: "aw-14",
     surah: {
       number: 93,
       nameArabic: "الضحى",
@@ -570,55 +451,39 @@ export const anxietyAndWorryVerses: QuranVerse[] = [
     },
     ayah: {
       start: 3,
+      end: 5,
     },
     arabic:
-      "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+      "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ ۝ وَلَلْءَاخِرَةُ خَيْرٌۭ لَّكَ مِنَ ٱلْأُولَىٰ ۝ وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰ",
     translation: {
       text:
-        "Your Lord has not forsaken you, nor has He detested you.",
+        "Your Lord has not taken leave of you, [O Muhammad], nor has He detested [you]. And the Next [phase] is better for you than the first. And your Lord is going to give you, and you will be satisfied.",
       source: "Saheeh International",
     },
+    summary:
+      "A comforting reassurance that Allah has not abandoned the Prophet, promising that what lies ahead will bring relief and satisfaction.",
     context:
-      "This verse is part of Surah Ad-Duha, which reassures the Prophet Muhammad during a difficult period.",
+      "Revealed after a period of silence in revelation when opponents taunted the Prophet, causing him deep concern and worry.",
     scholarlyReference: {
       source: "Tafsir Ibn Kathir",
+      reference: "Surah Ad-Duha (93:3-5)",
       summary:
-        "The passage reassures the Prophet that Allah had not abandoned or forsaken him.",
+        "Ibn Kathir notes that this surah brought immense reassurance, affirming that difficult pauses in life do not mean abandonment by Allah.",
+    },
+    hadith: {
+      collection: "Sahih al-Bukhari",
+      reference: "Hadith 4950",
+      text:
+        "Jundab ibn Sufyan reported: The Prophet fell ill and did not stand [for night prayer] for two or three nights. A woman came and said: 'O Muhammad, I hope your companion has left you...' So Allah revealed: 'By the morning brightness, and by the night when it covers, your Lord has not taken leave of you...'",
+      relevance:
+        "Demonstrates the real emotional distress and external mockery that this comforting revelation addressed.",
     },
     reflection:
-      "During periods when a person feels spiritually distant or alone, this verse can be a reminder to return to the Qur'an and seek Allah's mercy and guidance.",
+      "During times when you feel spiritually alone or worried that you have fallen behind, this passage offers a reminder of divine care and future relief.",
     themes: ["anxiety-and-worry"],
   },
   {
-    id: "aw-22",
-    surah: {
-      number: 93,
-      nameArabic: "الضحى",
-      nameEnglish: "Ad-Duha",
-    },
-    ayah: {
-      start: 5,
-    },
-    arabic:
-      "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰ",
-    translation: {
-      text:
-        "And your Lord is going to give you, and you will be satisfied.",
-      source: "Saheeh International",
-    },
-    context:
-      "The verse continues the reassurance given to the Prophet in Surah Ad-Duha.",
-    scholarlyReference: {
-      source: "Tafsir Ibn Kathir",
-      summary:
-        "The verse conveys reassurance concerning Allah's favor and what He would grant the Prophet.",
-    },
-    reflection:
-      "When uncertainty about the future becomes heavy, this verse can remind us that our present circumstances are not the whole story.",
-    themes: ["anxiety-and-worry"],
-  },
-  {
-    id: "aw-23",
+    id: "aw-15",
     surah: {
       number: 94,
       nameArabic: "الشرح",
@@ -629,50 +494,25 @@ export const anxietyAndWorryVerses: QuranVerse[] = [
       end: 6,
     },
     arabic:
-      "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا  إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+      "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا ۝ إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
     translation: {
       text:
-        "For indeed, with hardship comes ease. Indeed, with hardship comes ease.",
+        "For indeed, with hardship [will be] ease. Indeed, with hardship [will be] ease.",
       source: "Saheeh International",
     },
+    summary:
+      "The passage delivers a direct divine promise that ease accompanies hardship, reassuring believers that difficulty is not permanent.",
     context:
-      "These verses are part of a surah that reassures the Prophet and reminds him of Allah's favor and the presence of ease alongside hardship.",
+      "Reassuring the Prophet during the intense early opposition and hardships he encountered in Makkah.",
     scholarlyReference: {
       source: "Tafsir Ibn Kathir",
+      reference: "Surah Ash-Sharh (94:5-6)",
       summary:
-        "The passage emphasizes Allah's reassurance that ease accompanies hardship.",
+        "Ibn Kathir notes the classic linguistic point that hardship ('al-'usr') is singular and definite, while ease ('yusr') is repeated, indicating that relief encompasses difficulty.",
     },
+    hadith: null,
     reflection:
-      "When a difficult period feels endless, this passage offers a reminder not to assume that hardship is the entirety of what lies ahead.",
-    themes: ["anxiety-and-worry"],
-  },
-  {
-    id: "aw-24",
-    surah: {
-      number: 94,
-      nameArabic: "الشرح",
-      nameEnglish: "Ash-Sharh",
-    },
-    ayah: {
-      start: 7,
-      end: 8,
-    },
-    arabic:
-      "فَإِذَا فَرَغْتَ فَٱنصَبْ  وَإِلَىٰ رَبِّكَ فَٱرْغَب",
-    translation: {
-      text:
-        "So when you have finished your duties, then stand up for worship, and to your Lord direct your longing.",
-      source: "English meaning based on Saheeh International",
-    },
-    context:
-      "The closing verses of Surah Ash-Sharh direct the Prophet toward continued effort and turning his longing toward Allah.",
-    scholarlyReference: {
-      source: "Tafsir Ibn Kathir",
-      summary:
-        "The verses encourage continued effort and devotion, directing one's hopes and desires toward Allah.",
-    },
-    reflection:
-      "When worry leaves you mentally stuck, returning to meaningful responsibilities and directing your heart toward Allah can give the next moment a clear purpose.",
+      "When worry makes a challenging season feel endless, this verse serves as a reminder that relief and ease are already present alongside hardship.",
     themes: ["anxiety-and-worry"],
   },
 ];

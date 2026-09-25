@@ -15,18 +15,30 @@ export const lackOfMotivationVerses: QuranVerse[] = [
     arabic:
       "وَأَن لَّيْسَ لِلْإِنسَـٰنِ إِلَّا مَا سَعَىٰ ۝ وَأَنَّ سَعْيَهُۥ سَوْفَ يُرَىٰ",
     translation: {
-      text: "And that there is not for man except that [good] for which he strives, and that his effort is going to be seen.",
+      text:
+        "And that there is not for man except that [good] for which he strives, and that his effort is going to be seen.",
       source: "Saheeh International",
     },
+    summary:
+      "This passage establishes that human beings are judged and rewarded for their sincere effort and striving, and that no honest work is lost or forgotten by Allah.",
     context:
-      "Reaffirming the intrinsic value of individual moral striving and constructive effort in the ultimate scale of reality.",
+      "Reaffirming the intrinsic value of individual moral striving and constructive effort in the ultimate scale of divine justice.",
     scholarlyReference: {
       source: "Tafsir as-Sa'di",
+      reference: "Surah An-Najm (53:39-40)",
       summary:
-        "As-Sa'di explains that human accountability is tied directly to sincere exertion, and that every sincere step is acknowledged by Allah.",
+        "As-Sa'di explains that human accountability is tied directly to sincere exertion, and that every sincere step is recognized by Allah, even if immediate worldly results are not seen.",
+    },
+    hadith: {
+      collection: "Sahih Muslim",
+      reference: "Hadith 2664",
+      text:
+        "The Messenger of Allah said: 'The strong believer is better and more beloved to Allah than the weak believer, while there is good in both. Strive for that which will benefit you, seek the help of Allah, and do not feel helpless...'",
+      relevance:
+        "Direct prophetic guidance encouraging active striving, seeking divine aid, and rejecting feelings of helplessness.",
     },
     reflection:
-      "When immediate results seem distant and motivation is flagging, take comfort in the dignity of small, honest efforts. No sincere striving is wasted.",
+      "When immediate results seem distant and motivation is flagging, take comfort in the dignity of small, honest efforts. Sincere striving is recognized by Allah, regardless of how modest it appears.",
     themes: ["lack-of-motivation"],
   },
   {
@@ -43,49 +55,27 @@ export const lackOfMotivationVerses: QuranVerse[] = [
     arabic:
       "فَإِذَا فَرَغْتَ فَٱنصَبْ ۝ وَإِلَىٰ رَبِّكَ فَٱرْغَب",
     translation: {
-      text: "So when you have finished [your duties], then stand up [for devotion]. And to your Lord direct [your] longing.",
+      text:
+        "So when you have finished [your duties], then stand up [for devotion]. And to your Lord direct [your] longing.",
       source: "Saheeh International",
     },
+    summary:
+      "The Prophet is instructed to transition from completing responsibilities into turning his longing toward Allah in prayer and reflection.",
     context:
-      "Guidance to the Prophet upon concluding demanding community duties to recharge through quiet spiritual contemplation.",
+      "Guidance to the Prophet upon concluding demanding community duties to recharge through quiet spiritual connection.",
     scholarlyReference: {
       source: "Tafsir Ibn Kathir",
+      reference: "Surah Ash-Sharh (94:7-8)",
       summary:
-        "Ibn Kathir points out that alternating between purposeful service and quiet devotion prevents emotional exhaustion and renews vigor.",
+        "Ibn Kathir notes that alternating purposeful work with quiet devotion prevents emotional weariness and continually renews purpose.",
     },
+    hadith: null,
     reflection:
-      "A lack of motivation is often a signal of burnout rather than laziness. Pausing to rest, recalibrate your intentions, and seek inner renewal helps restore energy.",
+      "A dip in motivation is often a sign of fatigue rather than failure. Taking a mindful pause to recalibrate your intentions and rest can help restore energy for your responsibilities.",
     themes: ["lack-of-motivation"],
   },
   {
     id: "lm-3",
-    surah: {
-      number: 67,
-      nameArabic: "الملك",
-      nameEnglish: "Al-Mulk",
-    },
-    ayah: {
-      start: 15,
-    },
-    arabic:
-      "هُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ ذَلُولًا فَٱمْشُوا۟ فِى مَنَاكِبِهَا وَكُلُوا۟ مِن رِّزْقِهِۦ ۖ وَإِلَيْهِ ٱلنُّشُورُ",
-    translation: {
-      text: "It is He who made the earth tame for you – so walk among its slopes and eat of His provision – and to Him is the resurrection.",
-      source: "Saheeh International",
-    },
-    context:
-      "Describing the welcoming design of the earth, inviting human beings to actively explore, work, and engage with the world.",
-    scholarlyReference: {
-      source: "Tafsir Ibn Kathir",
-      summary:
-        "Ibn Kathir emphasizes that physical endeavor across the earth is a necessary companion to spiritual contemplation and reliance.",
-    },
-    reflection:
-      "Motivation often follows action rather than preceding it. Taking a walk outdoors or starting with a simple, manageable step can help rekindle momentum.",
-    themes: ["lack-of-motivation"],
-  },
-  {
-    id: "lm-4",
     surah: {
       number: 13,
       nameArabic: "الرعد",
@@ -97,18 +87,185 @@ export const lackOfMotivationVerses: QuranVerse[] = [
     arabic:
       "إِنَّ ٱللَّهَ لَا يُغَيِّرُ مَا بِقَوْمٍ حَتَّىٰ يُغَيِّرُوا۟ مَا بِأَنفُسِهِمْ",
     translation: {
-      text: "...Indeed, Allah will not change the condition of a people until they change what is in themselves...",
+      text:
+        "...Indeed, Allah will not change the condition of a people until they change what is in themselves...",
       source: "Saheeh International",
     },
+    summary:
+      "Meaningful change begins from within: renewal of circumstances starts with an internal shift in intention, attitude, and effort.",
     context:
-      "Emphasizing moral and psychological agency as the primary catalyst for both individual renewal and societal change.",
+      "Emphasizing moral agency and human responsibility as foundational catalysts for positive personal and communal change.",
     scholarlyReference: {
       source: "Tafsir at-Tabari",
+      reference: "Surah Ar-Ra'd (13:11)",
       summary:
         "At-Tabari emphasizes that external transformation begins with an internal realignment of intentions, habits, and moral choices.",
     },
+    hadith: null,
     reflection:
-      "You do not need to overhaul your entire life overnight. Lasting change starts with small internal shifts: an honest intention, a calmer outlook, or a tiny constructive habit.",
+      "You do not need to overhaul your entire life overnight. Lasting change starts with small internal shifts: an honest intention, a calmer outlook, or a single constructive habit.",
+    themes: ["lack-of-motivation"],
+  },
+  {
+    id: "lm-4",
+    surah: {
+      number: 2,
+      nameArabic: "البقرة",
+      nameEnglish: "Al-Baqarah",
+    },
+    ayah: {
+      start: 148,
+    },
+    arabic:
+      "فَٱسْتَبِقُوا۟ ٱلْخَيْرَٰتِ ۚ أَيْنَ مَا تَكُونُوا۟ يَأْتِ بِكُمُ ٱللَّهُ جَمِيعًا",
+    translation: {
+      text:
+        "So race to [all that is] good. Wherever you may be, Allah will bring you forth all together. Indeed, Allah is over all things competent.",
+      source: "Saheeh International",
+    },
+    summary:
+      "Believers are urged to break out of hesitation and delay by actively hastening toward virtuous deeds and productive action.",
+    context:
+      "A divine call urging humanity to overcome complacency and procrastination by prioritizing beneficial deeds.",
+    scholarlyReference: {
+      source: "Tafsir Ibn Kathir",
+      reference: "Surah Al-Baqarah (2:148)",
+      summary:
+        "Ibn Kathir explains that 'racing to good' means seizing opportunities for righteous action immediately, before distraction or lethargy sets in.",
+    },
+    hadith: null,
+    reflection:
+      "Waiting until you 'feel motivated' often leads to further delay. Choosing one small, beneficial task and beginning it today can help generate momentum.",
+    themes: ["lack-of-motivation"],
+  },
+  {
+    id: "lm-5",
+    surah: {
+      number: 3,
+      nameArabic: "آل عمران",
+      nameEnglish: "Ali 'Imran",
+    },
+    ayah: {
+      start: 133,
+    },
+    arabic:
+      "۞ وَسَارِعُوٓا۟ إِلَىٰ مَغْفِرَةٍۢ مِّن رَّبِّكُمْ وَجَنَّةٍ عَرْضُهَا ٱلسَّمَٰوَٰتُ وَٱلْأَرْضُ أُعِدَّتْ لِلْمُتَّقِينَ",
+    translation: {
+      text:
+        "And hasten to forgiveness from your Lord and a garden as wide as the heavens and earth, prepared for the righteous.",
+      source: "Saheeh International",
+    },
+    summary:
+      "Believers are called to hasten toward forgiveness and the boundless reward of Paradise, lifting their sights beyond temporary worldly lethargy.",
+    context:
+      "Invoking the vastness of divine reward to rekindle purposeful action and overcome spiritual sluggishness.",
+    scholarlyReference: {
+      source: "Tafsir as-Sa'di",
+      reference: "Surah Ali 'Imran (3:133)",
+      summary:
+        "As-Sa'di highlights that contemplating the sheer expanse of divine reward energizes the soul, encouraging a person to shake off aimlessness.",
+    },
+    hadith: null,
+    reflection:
+      "When low energy makes your days feel trivial, widen your perspective. Remembering the enduring purpose of your life can help reignite your sense of direction.",
+    themes: ["lack-of-motivation"],
+  },
+  {
+    id: "lm-6",
+    surah: {
+      number: 15,
+      nameArabic: "الحجر",
+      nameEnglish: "Al-Hijr",
+    },
+    ayah: {
+      start: 98,
+      end: 99,
+    },
+    arabic:
+      "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَكُن مِّنَ ٱلسَّٰجِدِينَ ۝ وَٱعْبُدْ رَبَّكَ حَتَّىٰ يَأْتِيَكَ ٱلْيَقِينُ",
+    translation: {
+      text:
+        "So exalt [Allah] with praise of your Lord and be of those who prostrate [to Him]. And worship your Lord until there comes to you the certainty [death].",
+      source: "Saheeh International",
+    },
+    summary:
+      "When feeling burdened and emotionally drained, turning to praise, prostration, and steady worship offers renewed strength and consistency.",
+    context:
+      "The divine counsel given to the Prophet when emotional fatigue and public hostility caused his chest to feel tight and burdened.",
+    scholarlyReference: {
+      source: "Tafsir Ibn Kathir",
+      reference: "Surah Al-Hijr (15:98-99)",
+      summary:
+        "Ibn Kathir notes that whenever the Prophet felt distress or heaviness in his mission, he turned to prayer, finding renewed vitality through prostration.",
+    },
+    hadith: null,
+    reflection:
+      "When you cannot think your way out of a motivational slump, a simple physical pause to pray and reflect can help clear your mind and restore focus.",
+    themes: ["lack-of-motivation"],
+  },
+  {
+    id: "lm-7",
+    surah: {
+      number: 21,
+      nameArabic: "الأنبياء",
+      nameEnglish: "Al-Anbiya",
+    },
+    ayah: {
+      start: 90,
+    },
+    arabic:
+      "إِنَّهُمْ كَانُوا۟ يُسَٰرِعُونَ فِى ٱلْخَيْرَٰتِ وَيَدْعُونَنَا رَغَبًۭا وَرَهَبًۭا ۖ وَكَانُوا۟ لَنَا خَٰشِعِينَ",
+    translation: {
+      text:
+        "...Indeed, they used to hasten to good deeds and supplicate Us in hope and fear, and they were to Us humbly submissive.",
+      source: "Saheeh International",
+    },
+    summary:
+      "Describing the steady drive of the righteous prophets, who sustained purposeful action by balancing eager hope with reverent awareness of Allah.",
+    context:
+      "Praising the perseverance of Prophet Zechariah and other messengers who remained dedicated to goodness throughout long trials.",
+    scholarlyReference: {
+      source: "Tafsir as-Sa'di",
+      reference: "Surah Al-Anbiya (21:90)",
+      summary:
+        "As-Sa'di points out that combining sincere hope ('raghab') with vigilant awe ('rahab') creates consistent, wholesome motivation.",
+    },
+    hadith: null,
+    reflection:
+      "Healthy motivation balances hope for positive outcomes with a healthy respect for not wasting precious time. Let hope pull you forward.",
+    themes: ["lack-of-motivation"],
+  },
+  {
+    id: "lm-8",
+    surah: {
+      number: 103,
+      nameArabic: "العصر",
+      nameEnglish: "Al-'Asr",
+    },
+    ayah: {
+      start: 1,
+      end: 3,
+    },
+    arabic:
+      "وَٱلْعَصْرِ ۝ إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ ۝ إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+    translation: {
+      text:
+        "By time, indeed, mankind is in loss, except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience.",
+      source: "Saheeh International",
+    },
+    summary:
+      "This short surah summarizes the precious, fleeting nature of human time, urging people toward faith, good deeds, truth, and mutual patience.",
+    context:
+      "A concise declaration of human urgency, contrasting the natural loss of time with purposeful living.",
+    scholarlyReference: {
+      source: "Tafsir Ibn Kathir",
+      reference: "Surah Al-'Asr (103:1-3)",
+      summary:
+        "Ibn Kathir quotes Imam ash-Shafi'i: 'If people were to ponder this surah alone, it would suffice them for comprehensive guidance on living with purpose.'",
+    },
+    hadith: null,
+    reflection:
+      "Time passes regardless of how we spend it. Reflecting on the value of each hour can help break the grip of procrastination and encourage purposeful steps today.",
     themes: ["lack-of-motivation"],
   },
 ];

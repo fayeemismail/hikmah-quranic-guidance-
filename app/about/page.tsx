@@ -4,9 +4,26 @@ import Link from "next/link";
 import { LuCompass, LuHeart, LuBookOpen, LuShieldCheck, LuSparkles, LuArrowRight } from "react-icons/lu";
 
 export const metadata: Metadata = {
-  title: "About the Project | Qur'anic Guidance",
+  title: "About the Project — Ethical & Reverent Qur'anic Guidance",
   description:
-    "An elegant digital sanctuary designed to explore Qur'anic guidance through verified passages, clear hierarchy, and peaceful typography.",
+    "An elegant digital sanctuary designed to explore Qur'anic guidance through verified passages, clear content hierarchy, classical Tafsir, and peaceful typography.",
+  keywords: [
+    "about hikmah guidance",
+    "quranic guidance project",
+    "quran verses with meaning",
+    "islamic guidance website",
+    "authentic quranic reflections",
+  ],
+  alternates: {
+    canonical: "https://hikmah-guidance.vercel.app/about",
+  },
+  openGraph: {
+    title: "About Hikmah — Ethical & Reverent Qur'anic Guidance",
+    description:
+      "A calm digital sanctuary designed to connect seekers with verified Qur'anic wisdom, classical commentary, and peaceful perspective.",
+    url: "https://hikmah-guidance.vercel.app/about",
+    type: "website",
+  },
 };
 
 export default function AboutPage() {

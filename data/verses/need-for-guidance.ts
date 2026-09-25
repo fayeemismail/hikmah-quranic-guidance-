@@ -15,18 +15,30 @@ export const needForGuidanceVerses: QuranVerse[] = [
     arabic:
       "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ۝ ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
     translation: {
-      text: "It is You we worship and You we ask for help. Guide us to the straight path.",
+      text:
+        "It is You we worship and You we ask for help. Guide us to the straight path.",
       source: "Saheeh International",
     },
+    summary:
+      "The foundational petition of the Qur'an, uniting devotion with an ongoing request for moral and practical orientation in every choice.",
     context:
-      "The foundational prayer recited multiple times daily in every Muslim prayer, uniting worship with an ongoing petition for moral orientation.",
+      "The core prayer of the opening surah, repeated in every unit of prayer to remind human beings that they continuously need divine wisdom and direction.",
     scholarlyReference: {
       source: "Tafsir Ibn Kathir",
+      reference: "Surah Al-Fatihah (1:5-6)",
       summary:
-        "Ibn Kathir notes that continuously praying for the 'straight path' asks both for discovery of truth and steadfastness once it is found.",
+        "Ibn Kathir notes that praying for the 'straight path' asks both for discovery of the right course and steadfastness once it is found.",
+    },
+    hadith: {
+      collection: "Sahih al-Bukhari",
+      reference: "Hadith 1162",
+      text:
+        "Jabir ibn 'Abdullah reported: 'The Messenger of Allah used to teach us the Istikharah (seeking guidance from Allah) in all matters, just as he used to teach us a chapter from the Qur'an...'",
+      relevance:
+        "Highlights the centrality of actively seeking divine guidance and clarity whenever facing important decisions.",
     },
     reflection:
-      "Guidance is not a one-time destination, but an ongoing daily journey. Regularly asking for clarity keeps the ego humble and receptive to moral growth.",
+      "Guidance is an ongoing daily process rather than a static achievement. Regularly asking for clarity keeps the ego humble and receptive to sound advice.",
     themes: ["need-for-guidance"],
   },
   {
@@ -43,16 +55,21 @@ export const needForGuidanceVerses: QuranVerse[] = [
     arabic:
       "ذَٰلِكَ ٱلْكِتَـٰبُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ ۝ ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَـٰهُمْ يُنفِقُونَ",
     translation: {
-      text: "This is the Book about which there is no doubt, a guidance for those conscious of Allah – who believe in the unseen, establish prayer, and spend out of what We have provided for them.",
+      text:
+        "This is the Book about which there is no doubt, a guidance for those conscious of Allah - Who believe in the unseen, establish prayer, and spend out of what We have provided for them.",
       source: "Saheeh International",
     },
+    summary:
+      "The Qur'an presents itself as a reliable roadmap of clear guidance for those who cultivate mindfulness of Allah and live with ethical purpose.",
     context:
-      "The opening declarations of Surah Al-Baqarah, setting out revelation as a moral roadmap for those seeking sincere consciousness.",
+      "The opening passage of Surah Al-Baqarah, establishing revelation as a moral compass for those seeking sincere direction.",
     scholarlyReference: {
       source: "Tafsir as-Sa'di",
+      reference: "Surah Al-Baqarah (2:2-3)",
       summary:
-        "As-Sa'di explains that revelation guides the receptive heart toward practical righteousness and intellectual peace.",
+        "As-Sa'di explains that scripture guides the receptive heart toward practical righteousness and intellectual peace, steering away from doubt.",
     },
+    hadith: null,
     reflection:
       "When life presents confusing choices, grounding yourself in timeless principles provides clarity amidst the noise of conflicting opinions.",
     themes: ["need-for-guidance"],
@@ -70,45 +87,183 @@ export const needForGuidanceVerses: QuranVerse[] = [
     arabic:
       "وَٱلَّذِينَ ٱسْتَجَابُوا۟ لِرَبِّهِمْ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَأَمْرُهُمْ شُورَىٰ بَيْنَهُمْ وَمِمَّا رَزَقْنَـٰهُمْ يُنفِقُونَ",
     translation: {
-      text: "And those who have responded to their Lord and established prayer and whose affair is [determined by] consultation among themselves, and from what We have provided them, they spend.",
+      text:
+        "And those who have responded to their Lord and established prayer and whose affair is [determined by] consultation among themselves, and from what We have provided them, they spend.",
       source: "Saheeh International",
     },
+    summary:
+      "Believers are praised for practicing mutual consultation ('Shura') in their affairs, uniting prayer with seeking counsel before making decisions.",
     context:
-      "Praising the balanced community for adopting mutual consultation ('shura') as a fundamental method for decision-making.",
+      "Commending the balanced community for adopting consultation as a fundamental method for resolving complex personal and communal matters.",
     scholarlyReference: {
       source: "Tafsir Ibn Kathir",
+      reference: "Surah Ash-Shura (42:38)",
       summary:
-        "Ibn Kathir explains that consulting thoughtful, sincere advisers before acting protects against bias and cultivates communal wisdom.",
+        "Ibn Kathir explains that consulting thoughtful, sincere people before taking action protects against personal bias and cultivates sound decisions.",
     },
+    hadith: null,
     reflection:
-      "Sound guidance is rarely found in isolated contemplation alone; consulting trusted mentors and experienced friends brings fresh light to tough dilemmas.",
+      "Seeking guidance does not mean deciding in isolation. Consulting trusted mentors, experienced friends, and reliable professionals brings fresh light to tough dilemmas.",
     themes: ["need-for-guidance"],
   },
   {
     id: "ng-4",
     surah: {
-      number: 6,
-      nameArabic: "الأنعام",
-      nameEnglish: "Al-An'am",
+      number: 3,
+      nameArabic: "آل عمران",
+      nameEnglish: "Ali 'Imran",
     },
     ayah: {
-      start: 71,
+      start: 8,
     },
     arabic:
-      "قُلْ إِنَّ هُدَى ٱللَّهِ هُوَ ٱلْهُدَىٰ ۖ وَأُمِرْنَا لِنُسْلِمَ لِرَبِّ ٱلْعَـٰلَمِينَ",
+      "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
     translation: {
-      text: "...Say, 'Indeed, the guidance of Allah is the [only true] guidance; and we have been commanded to submit to the Lord of the worlds.'",
+      text:
+        "[Who say], 'Our Lord, let not our hearts deviate after You have guided us and grant us from Yourself mercy. Indeed, You are the Bestower.'",
       source: "Saheeh International",
     },
+    summary:
+      "A prayer asking Allah to protect the heart from deviating after having found clarity, and to grant continuous mercy and steadfastness.",
     context:
-      "Addressing conflicting philosophical trends and urging steadfast adherence to the timeless truth revealed by the Creator.",
+      "The supplication of those firmly grounded in knowledge, acknowledging human vulnerability to bias and error.",
     scholarlyReference: {
-      source: "Tafsir al-Baghawi",
+      source: "Tafsir Ibn Kathir",
+      reference: "Surah Ali 'Imran (3:8)",
       summary:
-        "Al-Baghawi explains that human opinions fluctuate, whereas divine guidance offers enduring moral coherence across all generations.",
+        "Ibn Kathir records that the Prophet frequently supplicated for heart steadiness upon guidance, recognizing that maintaining clarity requires continuous humility.",
     },
+    hadith: null,
     reflection:
-      "Relying solely on subjective impulses can leave us adrift. Aligning personal intentions with enduring spiritual ethics provides an unwavering internal compass.",
+      "Finding the right path is the first step; remaining steady upon ethical principles is where true wisdom shines. Praying for steadfastness helps guard against self-delusion.",
+    themes: ["need-for-guidance"],
+  },
+  {
+    id: "ng-5",
+    surah: {
+      number: 5,
+      nameArabic: "المائدة",
+      nameEnglish: "Al-Ma'idah",
+    },
+    ayah: {
+      start: 16,
+    },
+    arabic:
+      "يَهْدِى بِهِ ٱللَّهُ مَنِ ٱتَّبَعَ رِضْوَٰنَهُۥ سُبُلَ ٱلسَّلَٰمِ وَيُخْرِجُهُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ بِإِذْنِهِۦ وَيَهْدِيهِمْ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ",
+    translation: {
+      text:
+        "By which Allah guides those who pursue His pleasure to the ways of peace and brings them out from darknesses into the light, by His permission, and guides them to a straight path.",
+      source: "Saheeh International",
+    },
+    summary:
+      "Allah guides those who genuinely seek His pleasure toward pathways of peace, leading them out of confusion into clarity.",
+    context:
+      "Outlining how sincerity of intention—prioritizing ethical truth over personal ego—opens avenues of internal and communal serenity ('Subul as-Salam').",
+    scholarlyReference: {
+      source: "Tafsir as-Sa'di",
+      reference: "Surah Al-Ma'idah (5:16)",
+      summary:
+        "As-Sa'di notes that anyone who makes seeking divine pleasure their primary criterion in dilemmas is guided toward peace of conscience and wholesome outcomes.",
+    },
+    hadith: null,
+    reflection:
+      "When torn between competing options, ask yourself: 'Which choice brings greater ethical integrity and peace?' Sincere intentions help reveal the right path.",
+    themes: ["need-for-guidance"],
+  },
+  {
+    id: "ng-6",
+    surah: {
+      number: 22,
+      nameArabic: "الحج",
+      nameEnglish: "Al-Hajj",
+    },
+    ayah: {
+      start: 54,
+    },
+    arabic:
+      "وَإِنَّ ٱللَّهَ لَهَادِ ٱلَّذِينَ ءَامَنُوٓا۟ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ",
+    translation: {
+      text:
+        "...And indeed, Allah is the Guide of those who have believed to a straight path.",
+      source: "Saheeh International",
+    },
+    summary:
+      "Believers are reassured that Allah actively supports and guides those who place their trust in Him along an upright and steady path.",
+    context:
+      "Reassuring believers amid doubts and confusion that Allah assists their discernment toward truth.",
+    scholarlyReference: {
+      source: "Tafsir at-Tabari",
+      reference: "Surah Al-Hajj (22:54)",
+      summary:
+        "At-Tabari emphasizes that faith is paired with divine guidance, acting as an internal moral compass that Allah calibrates toward justice.",
+    },
+    hadith: null,
+    reflection:
+      "You do not have to navigate life's crossroads without support. Trust that sincere prayer and honest reflection invite divine direction into your decisions.",
+    themes: ["need-for-guidance"],
+  },
+  {
+    id: "ng-7",
+    surah: {
+      number: 31,
+      nameArabic: "لقمان",
+      nameEnglish: "Luqman",
+    },
+    ayah: {
+      start: 22,
+    },
+    arabic:
+      "۞ وَمَن يُسْلِمْ وَجْهَهُۥٓ إِلَى ٱللَّهِ وَهُوَ مُحْسِنٌۭ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ ۗ وَإِلَى ٱللَّهِ عَٰقِبَةُ ٱلْأُمُورِ",
+    translation: {
+      text:
+        "And whoever submits his face to Allah while he is a doer of good - then he has grasped the most trustworthy handhold. And to Allah will be the outcome of [all] matters.",
+      source: "Saheeh International",
+    },
+    summary:
+      "Whoever surrenders their will to Allah while doing what is good has grasped a secure, unbreakable handhold, knowing that all outcomes rest with Him.",
+    context:
+      "Synthesizing guidance into two actionable components: sincere surrender to God ('Yuslim wajhahu') and active moral excellence ('Muhsin').",
+    scholarlyReference: {
+      source: "Tafsir Ibn Kathir",
+      reference: "Surah Luqman (31:22)",
+      summary:
+        "Ibn Kathir describes the 'trustworthy handhold' as an unbreakable bond of guidance that anchors the believer through life's ambiguities.",
+    },
+    hadith: null,
+    reflection:
+      "Release the urge to micromanage what you cannot control. Focus on doing what is morally right today, and place the final outcome into Allah's care.",
+    themes: ["need-for-guidance"],
+  },
+  {
+    id: "ng-8",
+    surah: {
+      number: 39,
+      nameArabic: "الزمر",
+      nameEnglish: "Az-Zumar",
+    },
+    ayah: {
+      start: 18,
+    },
+    arabic:
+      "ٱلَّذِينَ يَسْتَمِعُونَ ٱلْقَوْلَ فَيَتَّبِعُونَ أَحْسَنَهُۥٓ ۚ أُو۟لَٰٓئِكَ ٱلَّذِينَ هَدَىٰهُمُ ٱللَّهُ ۖ وَأُو۟لَٰٓئِكَ هُمْ أُو۟لُوا۟ ٱلْأَلْبَٰبِ",
+    translation: {
+      text:
+        "Who listen to speech and follow the best of it. Those are the ones Allah has guided, and those are people of understanding.",
+      source: "Saheeh International",
+    },
+    summary:
+      "Truly guided people are described as those who listen carefully to different arguments and advice, and thoughtfully choose to follow the best and most righteous among them.",
+    context:
+      "Praising individuals of sound intellect ('Ulul Albab') who evaluate speech with discernment rather than blind imitation.",
+    scholarlyReference: {
+      source: "Tafsir as-Sa'di",
+      reference: "Surah Az-Zumar (39:18)",
+      summary:
+        "As-Sa'di shows that guided people do not blindly follow impulse or bias; they reflect carefully and choose the highest moral course.",
+    },
+    hadith: null,
+    reflection:
+      "Seeking guidance involves active, fair-minded listening. Sift through counsel, filter out emotional reactions, and deliberately follow what is most upright and beneficial.",
     themes: ["need-for-guidance"],
   },
 ];

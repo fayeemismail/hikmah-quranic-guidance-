@@ -16,15 +16,19 @@ export const feelingLostVerses: QuranVerse[] = [
       text: "And He found you lost and guided [you].",
       source: "Saheeh International",
     },
+    summary:
+      "This verse reminds the Prophet of how Allah guided him when he was seeking truth and direction before receiving revelation.",
     context:
-      "Revealed during a quiet period when revelation had momentarily paused and the Prophet felt deep sorrow and longing; the chapter arrived to reassure him of Allah's continuous care and gentle guidance.",
+      "Revealed to comfort the Prophet during a quiet period in revelation, reminding him of Allah's continuous care and historical guidance throughout his life.",
     scholarlyReference: {
       source: "Tafsir Ibn Kathir",
+      reference: "Surah Ad-Duha (93:7)",
       summary:
-        "Ibn Kathir explains that this verse serves as a profound reminder of how Allah guides the seeker from perplexity and unawareness into certainty and illuminating truth.",
+        "Ibn Kathir explains that this refers to Allah guiding the Prophet from an unrevealed state of seeking to the clear light of revelation and truth.",
     },
+    hadith: null,
     reflection:
-      "Feeling unanchored or uncertain is an intrinsically human experience. This passage reminds us that seeking orientation begins with acknowledging our vulnerability and trusting that clarity unfolds gradually.",
+      "Feeling unanchored or uncertain about your direction is a common human experience. This passage offers a reminder that clarity often begins with acknowledging our need for guidance and remaining open to seeking it.",
     themes: ["feeling-lost"],
   },
   {
@@ -40,18 +44,23 @@ export const feelingLostVerses: QuranVerse[] = [
     arabic:
       "وَإِذَا سَأَلَكَ عِبَادِى عَنِّى فَإِنِّى قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ ٱلدَّاعِ إِذَا دَعَانِ ۖ فَلْيَسْتَجِيبُوا۟ لِى وَلْيُؤْمِنُوا۟ بِى لَعَلَّهُمْ يَرْشُدُونَ",
     translation: {
-      text: "And when My servants ask you concerning Me, indeed I am near. I respond to the invocation of the supplicant when he calls upon Me. So let them respond to Me and believe in Me that they may be [rightly] guided.",
+      text:
+        "And when My servants ask you, [O Muhammad], concerning Me - indeed I am near. I respond to the invocation of the supplicant when he calls upon Me. So let them respond to Me [by obedience] and believe in Me that they may be [rightly] guided.",
       source: "Saheeh International",
     },
+    summary:
+      "Allah assures humanity of His nearness and promises to answer those who sincerely call upon Him, so that they may attain right guidance and moral clarity.",
     context:
-      "Positioned within the verses regarding spiritual devotion and fasting, emphasizing that sincere prayer requires no intermediary and that divine attentiveness is immediate.",
+      "Positioned within verses regarding spiritual devotion, emphasizing direct access to God without intermediaries.",
     scholarlyReference: {
       source: "Tafsir as-Sa'di",
+      reference: "Surah Al-Baqarah (2:186)",
       summary:
-        "As-Sa'di highlights that divine nearness is an assurance that no whisper or unspoken plea goes unheard, inviting genuine trust and guidance (rushd).",
+        "As-Sa'di notes that divine closeness and responding to prayers are paired with guidance ('rushd'), showing that sincere prayer leads to sound decision-making.",
     },
+    hadith: null,
     reflection:
-      "When disconnected from everything around us, direct and humble invocation provides a sanctuary where questions and fears can be voiced without judgment.",
+      "When feeling isolated or unsure where to turn, direct and humble prayer provides a sanctuary where questions and uncertainties can be voiced with sincerity.",
     themes: ["feeling-lost"],
   },
   {
@@ -67,18 +76,23 @@ export const feelingLostVerses: QuranVerse[] = [
     arabic:
       "إِذْ أَوَى ٱلْفِتْيَةُ إِلَى ٱلْكَهْفِ فَقَالُوا۟ رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحْمَةً وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًا",
     translation: {
-      text: "[Mention] when the youths retreated to the cave and said, 'Our Lord, grant us from Yourself mercy and prepare for us from our affair right guidance.'",
+      text:
+        "[Mention] when the youths retreated to the cave and said, 'Our Lord, grant us from Yourself mercy and prepare for us from our affair right guidance.'",
       source: "Saheeh International",
     },
+    summary:
+      "A group of young believers facing complete uncertainty retreats to safety, praying to Allah for mercy and practical wisdom in their situation.",
     context:
-      "The young companions of the cave retreated from severe societal oppression and faced complete ambiguity about their survival, asking for divine mercy and discernment.",
+      "The companions of the cave fled religious persecution, entering the cave with no clear human plan for survival, asking Allah for 'rushd' (right discernment).",
     scholarlyReference: {
       source: "Tafsir Ibn Kathir",
+      reference: "Surah Al-Kahf (18:10)",
       summary:
-        "Ibn Kathir notes that they asked specifically for 'rushd'—sound discernment and moral rectitude—when worldly paths seemed entirely blocked.",
+        "Ibn Kathir notes that they asked specifically for 'rushd'—sound discernment and moral rectitude—when visible paths seemed entirely blocked.",
     },
+    hadith: null,
     reflection:
-      "Even when facing complete uncertainty about the future, asking for moral discernment and inner calm allows us to move forward one principled step at a time.",
+      "Even when you cannot see the full path ahead, asking for moral discernment and calm guidance allows you to take the next principled step.",
     themes: ["feeling-lost"],
   },
   {
@@ -94,18 +108,216 @@ export const feelingLostVerses: QuranVerse[] = [
     arabic:
       "وَٱلَّذِينَ جَـٰهَدُوا۟ فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا ۚ وَإِنَّ ٱللَّهَ لَمَعَ ٱلْمُحْسِنِينَ",
     translation: {
-      text: "And those who strive for Us – We will surely guide them to Our ways. And indeed, Allah is with the doers of good.",
+      text:
+        "And those who strive for Us - We will surely guide them to Our ways. And indeed, Allah is with the doers of good.",
       source: "Saheeh International",
     },
+    summary:
+      "Allah promises that those who make a sincere effort to seek His pleasure and do what is right will be guided to clear pathways.",
     context:
-      "The concluding verse of Surah Al-'Ankabut, encouraging believers that sincere inner striving and truth-seeking are met with opened doors of wisdom.",
+      "The concluding verse of Surah Al-'Ankabut, encouraging believers that inner striving and truth-seeking are met with divine guidance.",
     scholarlyReference: {
       source: "Tafsir al-Baghawi",
+      reference: "Surah Al-'Ankabut (29:69)",
       summary:
-        "Al-Baghawi comments that whoever acts upon what they know with sincere dedication will be guided toward that which they did not yet understand.",
+        "Al-Baghawi comments that whoever acts sincerely upon the truth they currently understand will be guided toward understanding that which was previously unclear.",
     },
+    hadith: null,
     reflection:
-      "Clarity is rarely discovered in passive hesitation; it often begins to show itself as we take sincere, constructive steps toward what is right and benevolent.",
+      "Clarity is rarely discovered in passive waiting; it often unfolds gradually as a person takes sincere, constructive steps toward what is good.",
+    themes: ["feeling-lost"],
+  },
+  {
+    id: "fl-5",
+    surah: {
+      number: 1,
+      nameArabic: "الفاتحة",
+      nameEnglish: "Al-Fatihah",
+    },
+    ayah: {
+      start: 5,
+      end: 6,
+    },
+    arabic:
+      "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ۝ ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+    translation: {
+      text:
+        "It is You we worship and You we ask for help. Guide us to the straight path.",
+      source: "Saheeh International",
+    },
+    summary:
+      "The central petition of the opening chapter of the Qur'an, asking Allah for guidance and support in staying on the upright path.",
+    context:
+      "Recited multiple times every day in prayer, teaching believers that human beings are in perpetual need of divine orientation and guidance.",
+    scholarlyReference: {
+      source: "Tafsir Ibn Kathir",
+      reference: "Surah Al-Fatihah (1:5-6)",
+      summary:
+        "Ibn Kathir clarifies that guidance to the straight path is the most necessary prayer for every seeker in every state, asking both for knowledge and steadfastness.",
+    },
+    hadith: null,
+    reflection:
+      "Guidance is an ongoing daily process rather than a one-time achievement. Repeating this prayer can be a grounding reminder to seek clarity in every stage of life.",
+    themes: ["feeling-lost"],
+  },
+  {
+    id: "fl-6",
+    surah: {
+      number: 2,
+      nameArabic: "البقرة",
+      nameEnglish: "Al-Baqarah",
+    },
+    ayah: {
+      start: 257,
+    },
+    arabic:
+      "ٱللَّهُ وَلِىُّ ٱلَّذِينَ ءَامَنُوا۟ يُخْرِجُهُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ",
+    translation: {
+      text:
+        "Allah is the ally of those who believe. He brings them out from darknesses into the light.",
+      source: "Saheeh International",
+    },
+    summary:
+      "Allah acts as a supportive guardian for those who believe, leading them out of confusion and darkness into clarity and light.",
+    context:
+      "Contrasting the multiple forms of human confusion and moral darkness with the singular, unifying illumination provided by divine guidance.",
+    scholarlyReference: {
+      source: "Tafsir as-Sa'di",
+      reference: "Surah Al-Baqarah (2:257)",
+      summary:
+        "As-Sa'di highlights that Allah undertakes the care of believers, helping to lead their hearts away from doubts and disorientation toward truth.",
+    },
+    hadith: null,
+    reflection:
+      "When thoughts feel clouded and decisions seem difficult, this verse offers reassurance that seeking divine guidance can help bring clarity out of confusion.",
+    themes: ["feeling-lost"],
+  },
+  {
+    id: "fl-7",
+    surah: {
+      number: 6,
+      nameArabic: "الأنعام",
+      nameEnglish: "Al-An'am",
+    },
+    ayah: {
+      start: 71,
+    },
+    arabic:
+      "قُلْ إِنَّ هُدَى ٱللَّهِ هُوَ ٱلْهُدَىٰ ۖ وَأُمِرْنَا لِنُسْلِمَ لِرَبِّ ٱلْعَٰلَمِينَ",
+    translation: {
+      text:
+        "Say, 'Indeed, the guidance of Allah is the [only true] guidance; and we have been commanded to submit to the Lord of the worlds.'",
+      source: "Saheeh International",
+    },
+    summary:
+      "This verse emphasizes that true and enduring guidance originates with Allah, directing believers to surrender their hearts to Him.",
+    context:
+      "The verse describes a person lost and bewildered in the wilderness ('hayran') while companions call out to safety, emphasizing divine guidance as the true anchor.",
+    scholarlyReference: {
+      source: "Tafsir Ibn Kathir",
+      reference: "Surah Al-An'am (6:71)",
+      summary:
+        "Ibn Kathir details how conflicting human opinions leave the seeker perplexed, whereas adhering to divine truth restores clear moral direction.",
+    },
+    hadith: null,
+    reflection:
+      "When pulled in competing directions by advice, opinions, and personal doubts, returning to foundational ethical principles can provide a steady compass.",
+    themes: ["feeling-lost"],
+  },
+  {
+    id: "fl-8",
+    surah: {
+      number: 10,
+      nameArabic: "يونس",
+      nameEnglish: "Yunus",
+    },
+    ayah: {
+      start: 57,
+    },
+    arabic:
+      "يَٰٓأَيُّهَا ٱلنَّاسُ قَدْ جَآءَتْكُم مَّوْعِظَةٌۭ مِّن رَّبِّكُمْ وَشِفَآءٌۭ لِّمَا فِى ٱلصُّدُورِ وَهُدًۭى وَرَحْمَةٌۭ لِّلْمُؤْمِنِينَ",
+    translation: {
+      text:
+        "O mankind, there has come to you instruction from your Lord and healing for what is in the breasts and guidance and mercy for the believers.",
+      source: "Saheeh International",
+    },
+    summary:
+      "The Qur'an is presented as an instruction, spiritual relief for the inner doubts and troubles of the heart, and a source of guidance and mercy.",
+    context:
+      "Proclaiming the spiritual benefits of revelation for addressing inner confusion, perplexity, and lack of direction.",
+    scholarlyReference: {
+      source: "Tafsir Ibn Kathir",
+      reference: "Surah Yunus (10:57)",
+      summary:
+        "Ibn Kathir explains that revelation provides spiritual healing for the doubts, confusion, and uneasiness that can afflict the human heart.",
+    },
+    hadith: null,
+    reflection:
+      "Feeling lost can leave a person feeling unsettled inside. Approaching the Qur'an as a source of reflection and guidance can help bring calm and direction.",
+    themes: ["feeling-lost"],
+  },
+  {
+    id: "fl-9",
+    surah: {
+      number: 14,
+      nameArabic: "إبراهيم",
+      nameEnglish: "Ibrahim",
+    },
+    ayah: {
+      start: 1,
+    },
+    arabic:
+      "كِتَٰبٌ أَنزَلْنَٰهُ إِلَيْكَ لِتُخْرِجَ ٱلنَّاسَ مِنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ بِإِذْنِ رَبِّهِمْ إِلَىٰ صِرَٰطِ ٱلْعَزِيزِ ٱلْحَمِيدِ",
+    translation: {
+      text:
+        "[This is] a Book which We have revealed to you, [O Muhammad], that you might bring mankind out of darknesses into the light by permission of their Lord - to the path of the Exalted in Might, the Praiseworthy.",
+      source: "Saheeh International",
+    },
+    summary:
+      "The stated purpose of scripture is to guide humanity from states of spiritual obscurity and confusion into the light of truth and clear direction.",
+    context:
+      "The opening verse of Surah Ibrahim, summarizing the core purpose of revelation as moral and spiritual enlightenment.",
+    scholarlyReference: {
+      source: "Tafsir at-Tabari",
+      reference: "Surah Ibrahim (14:1)",
+      summary:
+        "At-Tabari notes that revelation is designed specifically to help humanity move out of moral confusion and toward an upright, purposeful life.",
+    },
+    hadith: null,
+    reflection:
+      "We are not expected to figure out every aspect of life in total isolation; sacred guidance exists to help navigate complex decisions with clarity.",
+    themes: ["feeling-lost"],
+  },
+  {
+    id: "fl-10",
+    surah: {
+      number: 24,
+      nameArabic: "النور",
+      nameEnglish: "An-Nur",
+    },
+    ayah: {
+      start: 35,
+    },
+    arabic:
+      "ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ... يَهْدِى ٱللَّهُ لِنُورِهِۦ مَن يَشَآءُ",
+    translation: {
+      text:
+        "Allah is the Light of the heavens and the earth... Allah guides to His light whom He wills. And Allah presents examples for the people, and Allah is Knowing of all things.",
+      source: "Saheeh International",
+    },
+    summary:
+      "Allah describes His presence as the ultimate source of light in the universe, guiding those who seek truth toward that illumination.",
+    context:
+      "The renowned Verse of Light (Ayat an-Nur), using profound imagery to illustrate how divine truth illuminates the receptive heart.",
+    scholarlyReference: {
+      source: "Tafsir Ibn Kathir",
+      reference: "Surah An-Nur (24:35)",
+      summary:
+        "Ibn Kathir details how revelation kindles the innate spiritual perception of the believer, providing insight when worldly paths seem dark.",
+    },
+    hadith: null,
+    reflection:
+      "Even when your surroundings feel confusing, sincere yearning for truth allows you to find orientation through the light of divine principles.",
     themes: ["feeling-lost"],
   },
 ];

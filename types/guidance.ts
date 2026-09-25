@@ -14,13 +14,26 @@ export interface QuranVerse {
     text: string;
     source: string;
   };
+  summary: string;
   context: string;
   scholarlyReference?: {
     source: string;
+    reference?: string;
     summary: string;
-  };
+  } | null;
+  hadith?: {
+    collection: string;
+    reference: string;
+    text?: string;
+    relevance: string;
+  } | null;
   reflection: string;
   themes: string[];
+  sourceUrls?: {
+    quran?: string;
+    tafsir?: string;
+    hadith?: string;
+  };
 }
 
 export interface GuidanceTheme {

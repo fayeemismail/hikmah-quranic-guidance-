@@ -14,49 +14,227 @@ export const sadnessVerses: QuranVerse[] = [
     arabic:
       "قَالَ إِنَّمَآ أَشْكُوا۟ بَثِّى وَحُزْنِىٓ إِلَى ٱللَّهِ وَأَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ",
     translation: {
-      text: "He said, 'I only complain of my suffering and my grief to Allah, and I know from Allah that which you do not know.'",
+      text:
+        "He said, 'I only complain of my suffering and my grief to Allah, and I know from Allah that which you do not know.'",
       source: "Saheeh International",
     },
+    summary:
+      "Prophet Jacob expresses his deep sorrow to Allah alone, demonstrating that pouring out one's grief before God does not contradict patience.",
     context:
-      "The Prophet Ya'qub (Jacob) responding to his sons after years of enduring grief over the absence of his beloved son Yusuf.",
+      "Prophet Jacob (Ya'qub) responding to his sons after years of enduring heartbreak over the separation from his beloved son Joseph.",
     scholarlyReference: {
       source: "Tafsir Ibn Kathir",
+      reference: "Surah Yusuf (12:86)",
       summary:
-        "Ibn Kathir explains that expressing grief and pouring out sorrow before the Creator does not diminish patience, but reflects profound spiritual reliance.",
+        "Ibn Kathir explains that expressing sorrow and taking one's complaints to the Creator does not invalidate patience, but reflects profound spiritual trust.",
     },
+    hadith: null,
     reflection:
-      "Grieving and feeling sorrow do not mean weakness of faith. Giving voice to your pain before the Divine validates your humanity while preserving hope in mercy.",
+      "Feeling sorrow is an intrinsically human experience, not a failure of faith. Acknowledging your grief honestly in prayer can provide a safe space for healing without losing hope.",
     themes: ["sadness"],
   },
   {
     id: "sd-2",
     surah: {
-      number: 9,
-      nameArabic: "التوبة",
-      nameEnglish: "At-Tawbah",
+      number: 2,
+      nameArabic: "البقرة",
+      nameEnglish: "Al-Baqarah",
     },
     ayah: {
-      start: 40,
+      start: 155,
+      end: 156,
     },
     arabic:
-      "إِذْ يَقُولُ لِصَـٰحِبِهِۦ لَا تَحْزَنْ إِنَّ ٱللَّهَ مَعَنَا ۖ فَأَنزَلَ ٱللَّهُ سَكِينَتَهُۥ عَلَيْهِ",
+      "وَلَنَبْلُوَنَّكُم بِشَىْءٍۢ مِّنَ ٱلْخَوْفِ وَٱلْجُوعِ وَنَقْصٍۢ مِّنَ ٱلْأَمْوَٰلِ وَٱلْأَنفُسِ وَٱلثَّمَرَٰتِ ۗ وَبَشِّرِ ٱلصَّٰبِرِينَ ۝ ٱلَّذِينَ إِذَآ أَصَٰبَتْهُم مُّصِيبَةٌۭ قَالُوٓا۟ إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ",
     translation: {
-      text: "...When he said to his companion, 'Do not grieve; indeed Allah is with us.' And Allah sent down His tranquility upon him...",
+      text:
+        "And We will surely test you with something of fear and hunger and a loss of wealth and lives and fruits, but give good tidings to the patient, Who, when disaster strikes them, say, 'Indeed we belong to Allah, and indeed to Him we will return.'",
       source: "Saheeh International",
     },
+    summary:
+      "This passage acknowledges that loss, bereavement, and grief are real trials in human life, promising divine blessings to those who maintain patience and remember their return to Allah.",
     context:
-      "During the perilous migration to Medina, when the Prophet and his companion Abu Bakr were sheltered in the cave as search parties approached.",
+      "Preparing the early community for real-world losses, establishing the statement of Istirja' ('Inna Lillahi') as an anchor in bereavement.",
     scholarlyReference: {
-      source: "Tafsir al-Qurtubi",
+      source: "Tafsir Ibn Kathir",
+      reference: "Surah Al-Baqarah (2:155-156)",
       summary:
-        "Al-Qurtubi highlights that the divine tranquility ('sakinah') brought an immediate quietude to the heart, dispersing acute sorrow and anxiety.",
+        "Ibn Kathir explains that recognizing that we and all our blessings ultimately belong to Allah brings solace during deep grief and loss.",
+    },
+    hadith: {
+      collection: "Sahih al-Bukhari",
+      reference: "Hadith 5641",
+      text:
+        "The Prophet said: 'No fatigue, nor disease, nor sorrow, nor sadness, nor hurt, nor distress befalls a Muslim, even if it were the prick he receives from a thorn, but that Allah expiates some of his sins for that.'",
+      relevance:
+        "Affirms that enduring emotional sorrow and distress is spiritually meaningful and recognized by Allah.",
     },
     reflection:
-      "In our most vulnerable, isolated moments, remembering companionship and spiritual presence can alleviate the suffocating heaviness of deep sadness.",
+      "Grief over a lost loved one or missed opportunity can feel overwhelming. Whispering that what left was ultimately from Allah can soften the pain and help you process the loss with dignity.",
     themes: ["sadness"],
   },
   {
     id: "sd-3",
+    surah: {
+      number: 3,
+      nameArabic: "آل عمران",
+      nameEnglish: "Ali 'Imran",
+    },
+    ayah: {
+      start: 139,
+    },
+    arabic:
+      "وَلَا تَهِنُوا۟ وَلَا تَحْزَنُوا۟ وَأَنتُمُ ٱلْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ",
+    translation: {
+      text:
+        "So do not weaken and do not grieve, and you will be superior if you are [true] believers.",
+      source: "Saheeh International",
+    },
+    summary:
+      "Believers are urged not to let defeat or sorrow break their spirit, reassuring them that their dignity and purpose remain intact through faith.",
+    context:
+      "Revealed following the painful losses and injuries suffered by the Muslim community at the battle of Uhud.",
+    scholarlyReference: {
+      source: "Tafsir Ibn Kathir",
+      reference: "Surah Ali 'Imran (3:139)",
+      summary:
+        "Ibn Kathir emphasizes that this verse arrived to comfort the hearts of the wounded believers, encouraging them not to remain paralyzed by sorrow.",
+    },
+    hadith: null,
+    reflection:
+      "Heartbreak and setbacks can make a person feel defeated and diminished. This verse serves as a reminder that difficult moments do not define your worth or future.",
+    themes: ["sadness"],
+  },
+  {
+    id: "sd-4",
+    surah: {
+      number: 12,
+      nameArabic: "يوسف",
+      nameEnglish: "Yusuf",
+    },
+    ayah: {
+      start: 87,
+    },
+    arabic:
+      "يَٰبَنِىَّ ٱذْهَبُوا۟ فَتَحَسَّسُوا۟ مِن يُوسُفَ وَأَخِيهِ وَلَا تَا۟يْـَٔسُوا۟ مِن رَّوْحِ ٱللَّهِ ۖ إِنَّهُۥ لَا يَا۟يْـَٔسُ مِن رَّوْحِ ٱللَّهِ إِلَّا ٱلْقَوْمُ ٱلْكَٰفِرُونَ",
+    translation: {
+      text:
+        "O my sons, go and find out about Joseph and his brother and despair not of relief from Allah. Indeed, no one despairs of relief from Allah except the disbelieving people.",
+      source: "Saheeh International",
+    },
+    summary:
+      "Prophet Jacob instructs his sons never to give up hope in the comforting relief of Allah, even after decades of prolonged sorrow and absence.",
+    context:
+      "Prophet Jacob had wept until his eyesight was clouded, yet he maintained an unyielding conviction that Allah would bring relief.",
+    scholarlyReference: {
+      source: "Tafsir Ibn Kathir",
+      reference: "Surah Yusuf (12:87)",
+      summary:
+        "Ibn Kathir explains that 'Rawh Allah' refers to His comforting mercy and relief that arrives after long periods of sorrow and hardship.",
+    },
+    hadith: null,
+    reflection:
+      "Long seasons of sorrow can tempt a person to shut down emotionally. This passage reminds us that sadness and hope can exist side by side in a faithful heart.",
+    themes: ["sadness"],
+  },
+  {
+    id: "sd-5",
+    surah: {
+      number: 18,
+      nameArabic: "الكهف",
+      nameEnglish: "Al-Kahf",
+    },
+    ayah: {
+      start: 6,
+    },
+    arabic:
+      "فَلَعَلَّكَ بَٰخِعٌۭ نَّفْسَكَ عَلَىٰٓ ءَاثَٰرِهِمْ إِن لَّمْ يُؤْمِنُوا۟ بِهَٰذَا ٱلْحَدِيثِ أَسَفًا",
+    translation: {
+      text:
+        "Then perhaps you would kill yourself through grief over their footprints, if they do not believe in this message, out of sorrow.",
+      source: "Saheeh International",
+    },
+    summary:
+      "A compassionate divine intervention advising the Prophet not to consume himself with overwhelming sorrow over matters beyond his control.",
+    context:
+      "The Prophet felt deep personal sorrow when people rejected the path of truth, prompting Allah to gently caution him against grieving to the point of exhaustion.",
+    scholarlyReference: {
+      source: "Tafsir Ibn Kathir",
+      reference: "Surah Al-Kahf (18:6)",
+      summary:
+        "Ibn Kathir explains that Allah gently instructed the Prophet to moderate his sorrow, reminding him that guidance is in Allah's hands.",
+    },
+    hadith: null,
+    reflection:
+      "Deep sadness often occurs when we carry intense emotional responsibility for others' choices. Recognizing the limits of your role can help protect your heart from burnout.",
+    themes: ["sadness"],
+  },
+  {
+    id: "sd-6",
+    surah: {
+      number: 28,
+      nameArabic: "القصص",
+      nameEnglish: "Al-Qasas",
+    },
+    ayah: {
+      start: 7,
+    },
+    arabic:
+      "وَأَوْحَيْنَآ إِلَىٰٓ أُمِّ مُوسَىٰٓ أَنْ أَرْضِعِيهِ ۖ فَإِذَا خِفْتِ عَلَيْهِ فَأَلْقِيهِ فِى ٱلْيَمِّ وَلَا تَخَافِى وَلَا تَحْزَنِىٓ ۖ إِنَّا رَآدُّوهُ إِلَيْكِ وَجَاعِلُوهُ مِنَ ٱلْمُرْسَلِينَ",
+    translation: {
+      text:
+        "And We inspired to the mother of Moses, 'Suckle him; but when you fear for him, cast him into the river and do not fear and do not grieve. Indeed, We will return him to you and will make him one of the messengers.'",
+      source: "Saheeh International",
+    },
+    summary:
+      "The mother of Moses is given divine reassurance not to fear or grieve when compelled to release her child, with a promise of protection and return.",
+    context:
+      "Pharaoh had ordered the execution of newborn male children, creating immense maternal grief and distress for the mother of Moses.",
+    scholarlyReference: {
+      source: "Tafsir at-Tabari",
+      reference: "Surah Al-Qasas (28:7)",
+      summary:
+        "At-Tabari highlights that divine reassurance brought peace to a mother's grieving heart, fulfilling the promise through unexpected means.",
+    },
+    hadith: null,
+    reflection:
+      "When circumstances force you to let go of something dear, this passage offers a reminder that entrusting what you love to Allah can lead to protection and reunion beyond expectation.",
+    themes: ["sadness"],
+  },
+  {
+    id: "sd-7",
+    surah: {
+      number: 35,
+      nameArabic: "فاطر",
+      nameEnglish: "Fatir",
+    },
+    ayah: {
+      start: 34,
+    },
+    arabic:
+      "وَقَالُوا۟ ٱلْحَمْدُ لِلَّهِ ٱلَّذِىٓ أَذْهَبَ عَنَّا ٱلْحَزَنَ ۖ إِنَّ رَبَّنَا لَغَفُورٌۭ شَكُورٌ",
+    translation: {
+      text:
+        "And they will say, 'Praise to Allah, who has removed from us [all] sorrow. Indeed, our Lord is Forgiving and Appreciative.'",
+      source: "Saheeh International",
+    },
+    summary:
+      "The righteous in Paradise praise Allah for permanently removing all sorrow, grief, and emotional distress from their experience.",
+    context:
+      "Describing the final state of peace in the hereafter, contrasting earthly suffering with permanent spiritual rest.",
+    scholarlyReference: {
+      source: "Tafsir Ibn Kathir",
+      reference: "Surah Fatir (35:34)",
+      summary:
+        "Ibn Kathir notes that this praise includes gratitude for the removal of worldly hardships, anxieties, and the grief that accompanies mortal life.",
+    },
+    hadith: null,
+    reflection:
+      "Sorrow is a temporary condition of this world, not your permanent state. Reflecting on the promise of complete relief can offer comfort on difficult days.",
+    themes: ["sadness"],
+  },
+  {
+    id: "sd-8",
     surah: {
       number: 57,
       nameArabic: "الحديد",
@@ -66,24 +244,29 @@ export const sadnessVerses: QuranVerse[] = [
       start: 23,
     },
     arabic:
-      "لِّكَيْلَا تَأْسَوْا۟ عَلَىٰ مَا فَاتَكُمْ وَلَا تَفْرَحُوا۟ بِمَآ ءَاتَىٰكُمْ ۗ وَٱللَّهُ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
+      "لِّكَيْلَا تَأْسَوْا۟ عَلَىٰ مَا فَاتَكُمْ وَلَا تَفْرَحُوا۟ بِمَآ ءَاتَىٰكُمْ ۗ وَٱللَّهُ لَا يُحِبُّ كُلَّ مُخْتَالٍۢ فَخُورٍ",
     translation: {
-      text: "In order that you not despair over what has eluded you and not exult [in pride] over what He has given you. And Allah does not like everyone self-deluded and boastful.",
+      text:
+        "In order that you not despair over what has eluded you and not exult [in pride] over what He has given you. And Allah does not like everyone self-deluded and boastful.",
       source: "Saheeh International",
     },
+    summary:
+      "Believers are taught to keep an even keel: not falling into despair over what has passed or been lost, nor becoming arrogant over what is gained.",
     context:
-      "Describing the broader divine wisdom behind life's shifts and material losses, providing a balanced anchor through worldly fluctuations.",
+      "Describing the broader divine wisdom behind life's shifts and material losses, providing an anchor through worldly changes.",
     scholarlyReference: {
       source: "Tafsir as-Sa'di",
+      reference: "Surah Al-Hadid (57:23)",
       summary:
-        "As-Sa'di explains that understanding the temporary nature of worldly possessions protects the soul from paralyzing grief when things depart.",
+        "As-Sa'di explains that understanding the changing nature of life helps protect the heart from paralyzing grief when things depart.",
     },
+    hadith: null,
     reflection:
-      "Loss cuts deeply, yet remembering that life is a continuum of shifting seasons can help soften our attachment and foster long-term emotional resilience.",
+      "Loss cuts deeply, yet remembering that life moves through shifting chapters can help soften attachments and encourage long-term emotional resilience.",
     themes: ["sadness"],
   },
   {
-    id: "sd-4",
+    id: "sd-9",
     surah: {
       number: 76,
       nameArabic: "الإنسان",
@@ -95,18 +278,56 @@ export const sadnessVerses: QuranVerse[] = [
     arabic:
       "فَٱصْبِرْ لِحُكْمِ رَبِّكَ وَلَا تُطِعْ مِنْهُمْ ءَاثِمًا أَوْ كَفُورًا",
     translation: {
-      text: "So be patient for the decision of your Lord and do not obey from among them a sinner or an ungrateful one.",
+      text:
+        "So be patient for the decision of your Lord and do not obey from among them a sinner or an ungrateful one.",
       source: "Saheeh International",
     },
+    summary:
+      "The Prophet is instructed to remain patient under Allah's decree and not to give in to compromise despite opposition and emotional strain.",
     context:
-      "Comforting the Prophet during intense public antagonism and emotional burdens, urging steadfast composure under divine wisdom.",
+      "Comforting the Prophet during intense public antagonism in Makkah, urging steadfast composure under divine wisdom.",
     scholarlyReference: {
       source: "Tafsir Ibn Kathir",
+      reference: "Surah Al-Insan (76:24)",
       summary:
         "Ibn Kathir emphasizes that patient surrender to divine timing protects the spirit from exhaustion and despair.",
     },
+    hadith: null,
     reflection:
-      "When sadness makes everyday effort feel heavy, focusing on quiet steadfastness for today shields the heart from bitterness and despair.",
+      "When sadness makes everyday responsibilities feel heavy, focusing on quiet steadfastness for today can help shield the heart from cynicism.",
+    themes: ["sadness"],
+  },
+  {
+    id: "sd-10",
+    surah: {
+      number: 93,
+      nameArabic: "الضحى",
+      nameEnglish: "Ad-Duha",
+    },
+    ayah: {
+      start: 3,
+      end: 5,
+    },
+    arabic:
+      "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ ۝ وَلَلْءَاخِرَةُ خَيْرٌۭ لَّكَ مِنَ ٱلْأُولَىٰ ۝ وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰ",
+    translation: {
+      text:
+        "Your Lord has not taken leave of you, [O Muhammad], nor has He detested [you]. And the Next [phase] is better for you than the first. And your Lord is going to give you, and you will be satisfied.",
+      source: "Saheeh International",
+    },
+    summary:
+      "A tender reassurance that feelings of grief and abandonment are answered by divine care, promising that future ease will bring deep satisfaction.",
+    context:
+      "Revealed after an agonizing silence when the Prophet felt despondent, bringing reassurance like morning light after a dark night.",
+    scholarlyReference: {
+      source: "Tafsir Ibn Kathir",
+      reference: "Surah Ad-Duha (93:3-5)",
+      summary:
+        "Ibn Kathir explains that Allah reassures the sorrowful heart that divine kindness has not departed and that lasting contentment is prepared.",
+    },
+    hadith: null,
+    reflection:
+      "When sadness tells you that you are forgotten, this passage offers a gentle reminder: your journey is not finished, and relief and contentment remain ahead.",
     themes: ["sadness"],
   },
 ];

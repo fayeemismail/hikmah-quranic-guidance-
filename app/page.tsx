@@ -12,9 +12,32 @@ import {
 } from "react-icons/lu";
 
 export const metadata: Metadata = {
-  title: "Qur'anic Guidance for Life's Difficult Moments",
+  title: "Motivational Quran Verses & Guidance for Life's Difficult Moments",
   description:
-    "Explore carefully curated Qur'anic passages related to life's challenges, with Arabic text, English meaning, context and scholarly references.",
+    "Seeking solutions in Quran verses? Discover authentic Qur'anic guidance and motivational verses for patience, anxiety, sadness, feeling lost, hardship, and financial difficulty. Verified Arabic, Saheeh International translation, classical Tafsir, and authentic Hadith.",
+  keywords: [
+    "patience quranic verses",
+    "guidance in quran",
+    "motivational quran verses",
+    "solution in quran verse",
+    "quranic verses",
+    "solutions to problems in quran",
+    "quran verses for anxiety",
+    "quran verses for sadness",
+    "quran verses for hardship",
+    "sabr in quran",
+    "quranic wisdom for life",
+  ],
+  alternates: {
+    canonical: "https://hikmah-guidance.vercel.app",
+  },
+  openGraph: {
+    title: "Motivational Quran Verses & Guidance for Life's Difficult Moments | Hikmah",
+    description:
+      "Find genuine solutions and peace in verified Quran verses curated for emotional challenges like anxiety, sadness, hardship, and seeking guidance.",
+    url: "https://hikmah-guidance.vercel.app",
+    type: "website",
+  },
 };
 
 export default function HomePage() {
@@ -39,8 +62,45 @@ export default function HomePage() {
     },
   ];
 
+  // FAQ Schema for Rich Search Snippets
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "How can I find solutions to life's problems in Quran verses?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "The Quran addresses human experiences—such as anxiety, sadness, financial difficulty, and loss of purpose—by providing divine reminders, ethical frameworks, and models of perseverance. Hikmah organizes verified passages by life challenge with classical Tafsir and authentic Hadith to help readers understand context and meaning.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What does the Quran say about patience (Sabr)?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "The Quran emphasizes patience (Sabr) in more than 90 verses, pairing it with prayer (Surah Al-Baqarah 2:153), promising unlimited reward (Surah Az-Zumar 39:10), and reminding believers that ease accompanies hardship (Surah Ash-Sharh 94:5-6).",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Where can I find motivational Quran verses for difficult times?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Hikmah offers curated passages across 10 vital topics including Hardship, Hope, Lack of Motivation, Anxiety, and Need for Guidance, complete with Arabic calligraphy, English meaning, and classical scholarly explanations.",
+        },
+      },
+    ],
+  };
+
   return (
     <div className="space-y-10 sm:space-y-14 pb-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+
       {/* Hero section */}
       <Hero />
 

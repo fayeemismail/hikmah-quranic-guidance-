@@ -22,12 +22,20 @@ export default function TopicWheelPicker({ themes }: TopicWheelPickerProps) {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [scrollTop, setScrollTop] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(false);
-  const isScrollingRef = useRef(false);
-  const scrollTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const [transitioningSlug, setTransitioningSlug] = useState<string | null>(null);
+
+  const selectedIndexRef = useRef(selectedIndex);
+  selectedIndexRef.current = selectedIndex;
+
+  const isTransitioningRef = useRef(isTransitioning);
+  isTransitioningRef.current = isTransitioning;
+
+  const lastWheelTimeRef = useRef(0);
+  const wheelLockRef = useRef(false);
 
   const selectedTheme = themes[selectedIndex] || themes[0];
 
-  // Update selected index based on scroll position
+  // Update selected index based on scroll position (touch/native scroll)
   const handleScroll = useCallback(() => {
     if (!scrollRef.current) return;
     const currentScrollTop = scrollRef.current.scrollTop;
@@ -36,84 +44,133 @@ export default function TopicWheelPicker({ themes }: TopicWheelPickerProps) {
     // Calculate nearest item index
     const index = Math.round(currentScrollTop / ITEM_HEIGHT);
     const clampedIndex = Math.max(0, Math.min(themes.length - 1, index));
-    if (clampedIndex !== selectedIndex) {
+    if (clampedIndex !== selectedIndexRef.current) {
       setSelectedIndex(clampedIndex);
     }
+  }, [themes.length]);
 
-    // Debounce snap settlement
-    if (scrollTimeoutRef.current) clearTimeout(scrollTimeoutRef.current);
-    isScrollingRef.current = true;
-    scrollTimeoutRef.current = setTimeout(() => {
-      isScrollingRef.current = false;
-      // Ensure perfect snap alignment on settle
-      if (scrollRef.current) {
-        const targetScroll = clampedIndex * ITEM_HEIGHT;
-        if (Math.abs(scrollRef.current.scrollTop - targetScroll) > 1) {
-          scrollRef.current.scrollTo({
-            top: targetScroll,
-            behavior: "smooth",
-          });
-        }
+  // Programmatically scroll to an index
+  const scrollToIndex = useCallback((index: number, smooth = true) => {
+    if (!scrollRef.current) return;
+    scrollRef.current.scrollTo({
+      top: index * ITEM_HEIGHT,
+      behavior: smooth ? "smooth" : "auto",
+    });
+  }, []);
+
+  // Precise desktop mouse wheel handler: moves one by one on standard ticks, faster when scrolling fast
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+
+    const onWheel = (e: WheelEvent) => {
+      if (isTransitioningRef.current) return;
+      // Prevent default browser jump of 100-120px which skips items
+      e.preventDefault();
+
+      const now = Date.now();
+      const timeDiff = now - lastWheelTimeRef.current;
+      lastWheelTimeRef.current = now;
+
+      const absDelta = Math.abs(e.deltaY);
+      if (absDelta < 6) return; // ignore micro trackpad drift
+
+      // If already mid-notch within a very short window, throttle slightly to prevent accidental double-jumps
+      if (wheelLockRef.current && timeDiff < 60) return;
+
+      // Determine step count:
+      // Standard mouse wheel notch (80-160px delta) moves EXACTLY 1 item
+      // Fast spins (>240px delta or rapid successive ticks < 40ms) can move 2-3 items
+      let steps = 1;
+      if (absDelta >= 280) {
+        steps = Math.min(3, Math.round(absDelta / 120));
+      } else if (timeDiff < 40 && absDelta > 100) {
+        steps = 2;
       }
-    }, 120);
-  }, [selectedIndex, themes.length]);
 
-  // Handle clicking an item directly
-  const handleItemClick = (index: number) => {
-    if (isTransitioning) return;
+      const direction = e.deltaY > 0 ? 1 : -1;
+      const current = selectedIndexRef.current;
+      const next = Math.max(0, Math.min(themes.length - 1, current + direction * steps));
+
+      if (next !== current) {
+        wheelLockRef.current = true;
+        setSelectedIndex(next);
+        scrollToIndex(next, true);
+
+        setTimeout(() => {
+          wheelLockRef.current = false;
+        }, 80);
+      }
+    };
+
+    el.addEventListener("wheel", onWheel, { passive: false });
+    return () => {
+      el.removeEventListener("wheel", onWheel);
+    };
+  }, [themes.length, scrollToIndex]);
+
+  // Execute transition to verse page
+  const triggerExplore = (theme: GuidanceTheme) => {
+    if (isTransitioningRef.current) return;
+    setIsTransitioning(true);
+    setTransitioningSlug(theme.slug);
+
+    // Peaceful 650ms Framer Motion transition before navigation
+    setTimeout(() => {
+      router.push(`/topic/${theme.slug}`);
+    }, 650);
+  };
+
+  // Handle clicking a problem item directly in the wheel
+  const handleProblemClick = (theme: GuidanceTheme, index: number) => {
+    if (isTransitioningRef.current) return;
+
+    // Set selected & scroll to it
     setSelectedIndex(index);
-    if (scrollRef.current) {
-      scrollRef.current.scrollTo({
-        top: index * ITEM_HEIGHT,
-        behavior: "smooth",
-      });
-    }
+    scrollToIndex(index, true);
+
+    // Directly explore this problem on click!
+    triggerExplore(theme);
   };
 
   // Keyboard navigation
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (isTransitioning) return;
+      if (isTransitioningRef.current) return;
       if (e.key === "ArrowDown") {
         e.preventDefault();
         const next = Math.min(themes.length - 1, selectedIndex + 1);
-        handleItemClick(next);
+        setSelectedIndex(next);
+        scrollToIndex(next, true);
       } else if (e.key === "ArrowUp") {
         e.preventDefault();
         const prev = Math.max(0, selectedIndex - 1);
-        handleItemClick(prev);
+        setSelectedIndex(prev);
+        scrollToIndex(prev, true);
       } else if (e.key === "Enter") {
-        handleExplore();
+        e.preventDefault();
+        if (selectedTheme) {
+          triggerExplore(selectedTheme);
+        }
       }
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [selectedIndex, isTransitioning, themes.length]);
-
-  // Transition to verse page
-  const handleExplore = () => {
-    if (isTransitioning || !selectedTheme) return;
-    setIsTransitioning(true);
-
-    // Peaceful transition of 750ms
-    setTimeout(() => {
-      router.push(`/topic/${selectedTheme.slug}`);
-    }, 750);
-  };
+  }, [selectedIndex, selectedTheme, themes.length, scrollToIndex]);
 
   return (
     <div className="w-full max-w-md mx-auto flex flex-col items-center">
       {/* Visual Instruction above picker */}
       <div className="flex items-center gap-1.5 text-xs text-[#B69A5A] font-medium tracking-wide uppercase mb-3 select-none">
         <LuChevronsUpDown className="w-4 h-4 animate-bounce" style={{ animationDuration: "2s" }} />
-        <span>Scroll or tap to choose</span>
+        <span>Scroll one by one or click any problem</span>
       </div>
 
       {/* Main Wheel Container */}
       <div className="relative w-full rounded-3xl bg-[#FFFFFF] border border-[#E8E3D7] shadow-xl p-2 sm:p-3 overflow-hidden">
         {/* Subtle center lens / indicator bracket */}
         <div
-          className="pointer-events-none absolute left-3 right-3 rounded-2xl bg-gradient-to-r from-[#163D32]/8 via-[#B69A5A]/12 to-[#163D32]/8 border-y border-[#B69A5A]/40 transition-all duration-300 z-10"
+          className="pointer-events-none absolute left-3 right-3 rounded-2xl bg-gradient-to-r from-[#163D32]/8 via-[#B69A5A]/12 to-[#163D32]/8 border-y border-[#B69A5A]/40 transition-all duration-300 z-10 shadow-xs"
           style={{
             top: `${PADDING_Y + 12}px`,
             height: `${ITEM_HEIGHT}px`,
@@ -140,8 +197,8 @@ export default function TopicWheelPicker({ themes }: TopicWheelPickerProps) {
           ref={scrollRef}
           onScroll={handleScroll}
           tabIndex={0}
-          aria-label="Situation selector wheel. Use arrow keys to navigate."
-          className="w-full overflow-y-auto no-scrollbar outline-none cursor-grab active:cursor-grabbing select-none"
+          aria-label="Situation selector wheel. Click any problem to explore or use arrow keys."
+          className="w-full overflow-y-auto no-scrollbar outline-none select-none"
           style={{
             height: `${CONTAINER_HEIGHT}px`,
             scrollSnapType: "y mandatory",
@@ -150,50 +207,79 @@ export default function TopicWheelPicker({ themes }: TopicWheelPickerProps) {
           }}
         >
           {themes.map((theme, index) => {
-            // Calculate distance from center to dynamically style scaling/opacity
             const itemOffset = index * ITEM_HEIGHT;
             const distance = Math.abs(scrollTop - itemOffset);
             const normalizedDist = Math.min(distance / (ITEM_HEIGHT * 2.5), 1);
 
             const isSelected = selectedIndex === index;
-            const scale = 1 - normalizedDist * 0.18;
-            const opacity = 1 - normalizedDist * 0.72;
+            const isItemTransitioning = isTransitioning && transitioningSlug === theme.slug;
+            const scale = isItemTransitioning ? 1.05 : 1 - normalizedDist * 0.16;
+            const opacity = isItemTransitioning ? 1 : 1 - normalizedDist * 0.7;
 
             return (
               <div
                 key={theme.id}
-                onClick={() => handleItemClick(index)}
+                role="button"
+                tabIndex={0}
+                onClick={() => handleProblemClick(theme, index)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    handleProblemClick(theme, index);
+                  }
+                }}
+                title={`Click to explore ${theme.title}`}
                 style={{
                   height: `${ITEM_HEIGHT}px`,
                   scrollSnapAlign: "center",
                   transform: `scale(${scale})`,
                   opacity: opacity,
-                  transition: "transform 0.15s ease-out, opacity 0.15s ease-out",
+                  transition: "transform 0.16s ease-out, opacity 0.16s ease-out",
                 }}
-                className={`flex items-center justify-center gap-3 px-4 rounded-xl cursor-pointer text-center transition-colors ${
+                className={`flex items-center justify-between px-5 rounded-xl cursor-pointer transition-all duration-200 group ${
                   isSelected
-                    ? "font-semibold text-[#102A24]"
-                    : "font-normal text-[#69736E]"
+                    ? "font-semibold text-[#102A24] bg-[#163D32]/5 shadow-inner"
+                    : "font-normal text-[#69736E] hover:text-[#102A24] hover:bg-[#FAF8F5]"
                 }`}
               >
-                <div
-                  className={`w-7 h-7 rounded-lg flex items-center justify-center shrink-0 transition-colors ${
-                    isSelected
-                      ? "bg-[#163D32] text-[#B69A5A]"
-                      : "bg-[#163D32]/5 text-[#69736E]"
-                  }`}
-                >
-                  <TopicIcon name={theme.icon} className="w-3.5 h-3.5" />
+                <div className="flex items-center gap-3">
+                  <div
+                    className={`w-7 h-7 rounded-lg flex items-center justify-center shrink-0 transition-colors ${
+                      isSelected
+                        ? "bg-[#163D32] text-[#B69A5A]"
+                        : "bg-[#163D32]/5 text-[#69736E] group-hover:bg-[#163D32]/15"
+                    }`}
+                  >
+                    <TopicIcon name={theme.icon} className="w-3.5 h-3.5" />
+                  </div>
+                  <span
+                    className={`tracking-tight text-left ${
+                      isSelected
+                        ? "text-base sm:text-lg text-[#102A24]"
+                        : "text-sm sm:text-base"
+                    }`}
+                  >
+                    {theme.title}
+                  </span>
                 </div>
-                <span
-                  className={`tracking-tight ${
+
+                {/* Subtle right click/explore indicator */}
+                <div
+                  className={`flex items-center gap-1 text-xs transition-all ${
                     isSelected
-                      ? "text-base sm:text-lg text-[#102A24]"
-                      : "text-sm sm:text-base"
+                      ? "text-[#B69A5A] opacity-100 group-hover:translate-x-0.5"
+                      : "text-[#69736E]/40 opacity-0 group-hover:opacity-75"
                   }`}
                 >
-                  {theme.title}
-                </span>
+                  <span className="text-[10px] hidden sm:inline uppercase tracking-wider font-semibold">
+                    {isItemTransitioning ? "Opening..." : "Explore"}
+                  </span>
+                  {isItemTransitioning ? (
+                    <LuSparkles className="w-3.5 h-3.5 animate-spin" />
+                  ) : (
+                    <LuArrowRight className="w-3.5 h-3.5" />
+                  )}
+                </div>
               </div>
             );
           })}
@@ -225,11 +311,11 @@ export default function TopicWheelPicker({ themes }: TopicWheelPickerProps) {
           </AnimatePresence>
         </div>
 
-        {/* Primary Explore Action Button with peaceful transition */}
+        {/* Primary Explore Action Button */}
         <div className="pt-2">
           <motion.button
             type="button"
-            onClick={handleExplore}
+            onClick={() => triggerExplore(selectedTheme)}
             disabled={isTransitioning}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
@@ -254,7 +340,7 @@ export default function TopicWheelPicker({ themes }: TopicWheelPickerProps) {
         </div>
 
         <p className="text-[11px] text-[#69736E]/80 pt-1">
-          Presents verified Qur&apos;anic verses relevant to this theme
+          Click any problem directly or tap &ldquo;Explore this topic&rdquo;
         </p>
       </div>
     </div>

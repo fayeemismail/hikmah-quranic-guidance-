@@ -13,7 +13,7 @@ export const lackOfMotivationVerses: QuranVerse[] = [
       end: 40,
     },
     arabic:
-      "وَأَن لَّيْسَ لِلْإِنسَـٰنِ إِلَّا مَا سَعَىٰ ۝ وَأَنَّ سَعْيَهُۥ سَوْفَ يُرَىٰ",
+      "وَأَن لَّيْسَ لِلْإِنسَـٰنِ إِلَّا مَا سَعَىٰ  وَأَنَّ سَعْيَهُۥ سَوْفَ يُرَىٰ",
     translation: {
       text:
         "And that there is not for man except that [good] for which he strives, and that his effort is going to be seen.",
@@ -41,6 +41,7 @@ export const lackOfMotivationVerses: QuranVerse[] = [
       "When immediate results seem distant and motivation is flagging, take comfort in the dignity of small, honest efforts. Sincere striving is recognized by Allah, regardless of how modest it appears.",
     themes: ["lack-of-motivation"],
   },
+
   {
     id: "lm-2",
     surah: {
@@ -53,7 +54,7 @@ export const lackOfMotivationVerses: QuranVerse[] = [
       end: 8,
     },
     arabic:
-      "فَإِذَا فَرَغْتَ فَٱنصَبْ ۝ وَإِلَىٰ رَبِّكَ فَٱرْغَب",
+      "فَإِذَا فَرَغْتَ فَٱنصَبْ  وَإِلَىٰ رَبِّكَ فَٱرْغَب",
     translation: {
       text:
         "So when you have finished [your duties], then stand up [for devotion]. And to your Lord direct [your] longing.",
@@ -74,6 +75,7 @@ export const lackOfMotivationVerses: QuranVerse[] = [
       "A dip in motivation is often a sign of fatigue rather than failure. Taking a mindful pause to recalibrate your intentions and rest can help restore energy for your responsibilities.",
     themes: ["lack-of-motivation"],
   },
+
   {
     id: "lm-3",
     surah: {
@@ -106,6 +108,7 @@ export const lackOfMotivationVerses: QuranVerse[] = [
       "You do not need to overhaul your entire life overnight. Lasting change starts with small internal shifts: an honest intention, a calmer outlook, or a single constructive habit.",
     themes: ["lack-of-motivation"],
   },
+
   {
     id: "lm-4",
     surah: {
@@ -123,10 +126,17 @@ export const lackOfMotivationVerses: QuranVerse[] = [
         "So race to [all that is] good. Wherever you may be, Allah will bring you forth all together. Indeed, Allah is over all things competent.",
       source: "Saheeh International",
     },
+    malayalamTranslation: {
+      text:
+        "എല്ലാവർക്കും [ഓരോ വിഭാഗത്തിനും] ഉണ്ട് ഒരു അഭിമുഖ സ്ഥാനം; അത് [ഓരോ വിഭാഗവും] അതിന് നേരെ (മുഖം) തിരിക്കുന്നതായിരിക്കും. അതിനാൽ, നിങ്ങൾ ഉത്തമ(കാര്യ)ങ്ങളിലേക്ക് മുന്നോട്ട് വരുവിൻ. നിങ്ങൾ എവിടെ (തന്നെ) ആയിരുന്നാലും അല്ലാഹു നിങ്ങളെ മുഴുവനും കൊണ്ടുവരുന്നതാണ്. നിശ്ചയമായും അല്ലാഹു എല്ലാ കാര്യത്തിനും കഴിവുള്ളവനാകുന്നു.",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (2:148)",
+      sourceUrl: "https://amanithafseer.com/2_122-152/#2:148",
+    },
     summary:
       "Believers are urged to break out of hesitation and delay by actively hastening toward virtuous deeds and productive action.",
     context:
-      "A divine call urging humanity to overcome complacency and procrastination by prioritizing beneficial deeds.",
+      "A divine call urging believers to pursue righteous actions rather than remaining passive or delayed.",
     scholarlyReference: {
       source: "Tafsir Ibn Kathir",
       reference: "Surah Al-Baqarah (2:148)",
@@ -138,6 +148,7 @@ export const lackOfMotivationVerses: QuranVerse[] = [
       "Waiting until you 'feel motivated' often leads to further delay. Choosing one small, beneficial task and beginning it today can help generate momentum.",
     themes: ["lack-of-motivation"],
   },
+
   {
     id: "lm-5",
     surah: {
@@ -170,6 +181,7 @@ export const lackOfMotivationVerses: QuranVerse[] = [
       "When low energy makes your days feel trivial, widen your perspective. Remembering the enduring purpose of your life can help reignite your sense of direction.",
     themes: ["lack-of-motivation"],
   },
+
   {
     id: "lm-6",
     surah: {
@@ -182,7 +194,7 @@ export const lackOfMotivationVerses: QuranVerse[] = [
       end: 99,
     },
     arabic:
-      "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَكُن مِّنَ ٱلسَّٰجِدِينَ ۝ وَٱعْبُدْ رَبَّكَ حَتَّىٰ يَأْتِيَكَ ٱلْيَقِينُ",
+      "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَكُن مِّنَ ٱلسَّٰجِدِينَ  وَٱعْبُدْ رَبَّكَ حَتَّىٰ يَأْتِيَكَ ٱلْيَقِينُ",
     translation: {
       text:
         "So exalt [Allah] with praise of your Lord and be of those who prostrate [to Him]. And worship your Lord until there comes to you the certainty [death].",
@@ -203,6 +215,7 @@ export const lackOfMotivationVerses: QuranVerse[] = [
       "When you cannot think your way out of a motivational slump, a simple physical pause to pray and reflect can help clear your mind and restore focus.",
     themes: ["lack-of-motivation"],
   },
+
   {
     id: "lm-7",
     surah: {
@@ -220,10 +233,17 @@ export const lackOfMotivationVerses: QuranVerse[] = [
         "...Indeed, they used to hasten to good deeds and supplicate Us in hope and fear, and they were to Us humbly submissive.",
       source: "Saheeh International",
     },
+    malayalamTranslation: {
+      text:
+        "അപ്പോൾ, അദ്ദേഹത്തിനു നാം ഉത്തരം നൽകി; യഹ്-യായെ അദ്ദേഹത്തിന് നാം പ്രദാനം ചെയ്കയും, തന്റെ ഭാര്യയെ തനിക്കു നന്നാക്കി [പ്രസവിക്കുമാറാക്കി]ക്കൊടുക്കുകയും ചെയ്തു. നിശ്ചയമായും അവർ (എല്ലാവരും) സൽകാര്യങ്ങളിൽ ബദ്ധപ്പാട് കാണിക്കുകയും, ആശിച്ചും പേടിച്ചുംകൊണ്ട് നമ്മോടു പ്രാർത്ഥിക്കുകയും ചെയ്തുവന്നിരുന്നു; അവർ നമ്മോടു ഭക്തി കാണിക്കുന്നവരുമായിരുന്നു.",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (21:90)",
+      sourceUrl: "https://amanithafseer.com/21_076-93/#21:90",
+    },
     summary:
       "Describing the steady drive of the righteous prophets, who sustained purposeful action by balancing eager hope with reverent awareness of Allah.",
     context:
-      "Praising the perseverance of Prophet Zechariah and other messengers who remained dedicated to goodness throughout long trials.",
+      "Praising Prophet Zakariyya, Yahya, and their family for hastening toward good deeds, supplicating Allah with hope and fear, and remaining humble before Him.",
     scholarlyReference: {
       source: "Tafsir as-Sa'di",
       reference: "Surah Al-Anbiya (21:90)",
@@ -235,6 +255,7 @@ export const lackOfMotivationVerses: QuranVerse[] = [
       "Healthy motivation balances hope for positive outcomes with a healthy respect for not wasting precious time. Let hope pull you forward.",
     themes: ["lack-of-motivation"],
   },
+
   {
     id: "lm-8",
     surah: {
@@ -247,7 +268,7 @@ export const lackOfMotivationVerses: QuranVerse[] = [
       end: 3,
     },
     arabic:
-      "وَٱلْعَصْرِ ۝ إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ ۝ إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+      "وَٱلْعَصْرِ  إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ  إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
     translation: {
       text:
         "By time, indeed, mankind is in loss, except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience.",

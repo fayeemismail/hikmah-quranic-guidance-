@@ -18,6 +18,13 @@ export const sadnessVerses: QuranVerse[] = [
         "He said, 'I only complain of my suffering and my grief to Allah, and I know from Allah that which you do not know.'",
       source: "Saheeh International",
     },
+    malayalamTranslation: {
+      text:
+        "അദ്ദേഹം [പിതാവു] പറഞ്ഞു: 'എന്‍റെ വേവലാതിയും, എന്‍റെ വ്യസനവും (സംബന്ധിച്ചു) ഞാന്‍ അല്ലാഹുവിങ്കലേക്കു മാത്രമാണു പരാതിപ്പെടുന്നത്. നിങ്ങള്‍ക്കറിഞ്ഞുകൂടാത്തതു (ചിലതൊക്കെ) അല്ലാഹുവിങ്കല്‍ നിന്ന് എനിക്കറിയുകയും ചെയ്യും.'",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (12:86)",
+      sourceUrl: "https://amanithafseer.com/012_069-093/",
+    },
     summary:
       "Prophet Jacob expresses his deep sorrow to Allah alone, demonstrating that pouring out one's grief before God does not contradict patience.",
     context:
@@ -50,6 +57,13 @@ export const sadnessVerses: QuranVerse[] = [
       text:
         "And We will surely test you with something of fear and hunger and a loss of wealth and lives and fruits, but give good tidings to the patient, Who, when disaster strikes them, say, 'Indeed we belong to Allah, and indeed to Him we will return.'",
       source: "Saheeh International",
+    },
+    malayalamTranslation: {
+      text:
+        "ഭയം, വിശപ്പ്, സ്വത്തുക്കളിലും ദേഹങ്ങളിലും ഫലങ്ങളിലും കുറവ് എന്നിവയില്‍ പെട്ട വല്ലതും കൊണ്ട് നിശ്ചയമായും നാം നിങ്ങളെ പരീക്ഷണം ചെയ്യുന്നതാണ്. ക്ഷമിക്കുന്നവര്‍ക്ക് നീ സന്തോഷവാര്‍ത്ത അറിയിക്കുകയും ചെയ്യുക. അതായത് യാതൊരു കൂട്ടര്‍ക്ക്, അവര്‍ക്ക് വല്ല ബാധയും [ആപത്തും] ബാധിച്ചാല്‍ അവര്‍ പറയും: ഞങ്ങള്‍ അല്ലാഹുവിനുള്ളവരാണ്; ഞങ്ങള്‍ അവങ്കലേക്ക് തന്നെ മടങ്ങുന്നവരുമാകുന്നു.",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (2:155-156)",
+      sourceUrl: "https://amanithafseer.com/2_153-182/",
     },
     summary:
       "This passage acknowledges that loss, bereavement, and grief are real trials in human life, promising divine blessings to those who maintain patience and remember their return to Allah.",
@@ -122,6 +136,13 @@ export const sadnessVerses: QuranVerse[] = [
         "O my sons, go and find out about Joseph and his brother and despair not of relief from Allah. Indeed, no one despairs of relief from Allah except the disbelieving people.",
       source: "Saheeh International",
     },
+    malayalamTranslation: {
+      text:
+        "'എന്‍റെ മക്കളേ, നിങ്ങള്‍പോയി യൂസുഫിനെയും അവന്‍റെ സഹോദരനെയും സംബന്ധിച്ചു (വിവരം) അന്വേഷിച്ചു നോക്കുവിന്‍. അല്ലാഹുവിന്‍റെ (പക്കല്‍നിന്നുള്ള) ആശ്വാസത്തെക്കുറിച്ചു നിങ്ങള്‍ നിരാശപ്പെടുകയും ചെയ്യരുത്. നിശ്ചയമായും കാര്യം: അല്ലാഹുവിന്‍റെ (പക്കല്‍നിന്നുള്ള) ആശ്വാസത്തെപ്പറ്റി അവിശ്വാസികളായ ജനങ്ങളല്ലാതെ നിരാശപ്പെടുകയില്ല.'",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (12:87)",
+      sourceUrl: "https://amanithafseer.com/012_069-093/",
+    },
     summary:
       "Prophet Jacob instructs his sons never to give up hope in the comforting relief of Allah, even after decades of prolonged sorrow and absence.",
     context:
@@ -185,6 +206,13 @@ export const sadnessVerses: QuranVerse[] = [
       text:
         "And We inspired to the mother of Moses, 'Suckle him; but when you fear for him, cast him into the river and do not fear and do not grieve. Indeed, We will return him to you and will make him one of the messengers.'",
       source: "Saheeh International",
+    },
+    malayalamTranslation: {
+      text:
+        "മൂസായുടെ മാതാവിന് നാം ബോധനം നല്‍കി: 'അവന് മുലകൊടുത്തുകൊള്ളുക; എന്നിട്ട് അവനെക്കുറിച്ചു നിനക്ക് പേടിയുണ്ടായാല്‍ അവനെ നദിയില്‍ ഇട്ടേക്കുക. നീ പേടിക്കുകയും വേണ്ടാ, വ്യസനിക്കുകയും വേണ്ടാ! നിശ്ചയമായും, നാം അവനെ നിന്‍റെ അടുക്കലേക്കു തിരിച്ചു കൊണ്ടു വരുന്നതും, അവനെ 'മുര്‍സലു'കളില്‍ (ദൈവദൂതന്‍മാരില്‍) പെട്ടവനാക്കുന്നതുമാകുന്നു.'",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (28:7)",
+      sourceUrl: "https://amanithafseer.com/28_001-025/",
     },
     summary:
       "The mother of Moses is given divine reassurance not to fear or grieve when compelled to release her child, with a promise of protection and return.",

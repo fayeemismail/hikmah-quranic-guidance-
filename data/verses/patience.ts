@@ -17,6 +17,12 @@ export const patienceVerses: QuranVerse[] = [
       text: "O you who have believed, seek help through patience and prayer. Indeed, Allah is with the patient.",
       source: "Saheeh International",
     },
+    malayalamTranslation: {
+      text: "ഹേ, വിശ്വസിച്ചവരേ, ക്ഷമയും നമസ്‌കാരവും വഴി നിങ്ങള്‍ സഹായം തേടിക്കൊള്ളുവിന്‍ നിശ്ചയമായും, അല്ലാഹു ക്ഷമിക്കുന്നവരോടൊപ്പമായിരിക്കും.",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (2:153)",
+      sourceUrl: "https://amanithafseer.com/2_153-182/#2:153",
+    },
     summary:
       "This verse instructs believers to face challenges and burdens by relying on steadfast patience and regular prayer, promising that Allah grants His support and companionship to those who endure with faith.",
     context:
@@ -143,6 +149,12 @@ export const patienceVerses: QuranVerse[] = [
     translation: {
       text: "And We will surely test you with something of fear and hunger and a loss of wealth and lives and fruits, but give good tidings to the patient, who, when disaster strikes them, say, 'Indeed we belong to Allah, and indeed to Him we will return.'",
       source: "Saheeh International",
+    },
+    malayalamTranslation: {
+      text: "ഭയം, വിശപ്പ്, സ്വത്തുക്കളിലും ദേഹങ്ങളിലും ഫലങ്ങളിലും കുറവ് എന്നിവയില്‍ പെട്ട വല്ലതും കൊണ്ട് നിശ്ചയമായും നാം നിങ്ങളെ പരീക്ഷണം ചെയ്യുന്നതാണ്. ക്ഷമിക്കുന്നവര്‍ക്ക് നീ സന്തോഷവാര്‍ത്ത അറിയിക്കുകയും ചെയ്യുക. അതായത് യാതൊരു കൂട്ടര്‍ക്ക്, അവര്‍ക്ക് വല്ല ബാധയും [ആപത്തും] ബാധിച്ചാല്‍ അവര്‍ പറയും: ഞങ്ങള്‍ അല്ലാഹുവിനുള്ളവരാണ്; ഞങ്ങള്‍ അവങ്കലേക്ക് തന്നെ മടങ്ങുന്നവരുമാകുന്നു.",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (2:155-156)",
+      sourceUrl: "https://amanithafseer.com/2_153-182/#2:155",
     },
     summary:
       "This passage explains that tests involving fear, hunger, financial hardship, and loss are inevitable realities of life, but gives glad tidings to those who respond with patient acceptance and remember their ultimate return to Allah.",

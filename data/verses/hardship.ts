@@ -18,6 +18,12 @@ export const hardshipVerses: QuranVerse[] = [
       text: "And We will surely test you with something of fear and hunger and a loss of wealth and lives and fruits, but give good tidings to the patient, who, when disaster strikes them, say, 'Indeed we belong to Allah, and indeed to Him we will return.'",
       source: "Saheeh International",
     },
+    malayalamTranslation: {
+      text: "ഭയം, വിശപ്പ്, സ്വത്തുക്കളിലും ദേഹങ്ങളിലും ഫലങ്ങളിലും കുറവ് എന്നിവയില്‍ പെട്ട വല്ലതും കൊണ്ട് നിശ്ചയമായും നാം നിങ്ങളെ പരീക്ഷണം ചെയ്യുന്നതാണ്. ക്ഷമിക്കുന്നവര്‍ക്ക് നീ സന്തോഷവാര്‍ത്ത അറിയിക്കുകയും ചെയ്യുക. അതായത് യാതൊരു കൂട്ടര്‍ക്ക്, അവര്‍ക്ക് വല്ല ബാധയും [ആപത്തും] ബാധിച്ചാല്‍ അവര്‍ പറയും: ഞങ്ങള്‍ അല്ലാഹുവിനുള്ളവരാണ്; ഞങ്ങള്‍ അവങ്കലേക്ക് തന്നെ മടങ്ങുന്നവരുമാകുന്നു.",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (2:155-156)",
+      sourceUrl: "https://amanithafseer.com/2_153-182/#2:155",
+    },
     summary:
       "This passage explains that trials involving fear, material loss, and grief are natural parts of human existence, offering glad tidings to those who respond with patient acceptance and remember their ultimate return to Allah.",
     context:
@@ -332,6 +338,12 @@ export const hardshipVerses: QuranVerse[] = [
     translation: {
       text: "Did We not expand for you, [O Muhammad], your breast? And We removed from you your burden which had weighed upon your back, and raised high for you your repute.",
       source: "Saheeh International",
+    },
+    malayalamTranslation: {
+      text: "(നബിയേ) നിന്റെ നെഞ്ച് [ഹൃദയം] നിനക്ക് നാം വിശാലമാക്കിത്തന്നില്ലേ?! നിന്റെ ഭാരം നിന്നില്‍ നിന്ന് നാം (ഇറക്കി) വെക്കുകയും ചെയ്തിരിക്കുന്നു:- (അതെ) നിന്റെ മുതുകിനെ ഞെരുക്കിക്കളഞ്ഞതായ (ആ ഭാരം). നിന്റെ കീര്‍ത്തി നിനക്ക് നാം ഉയര്‍ത്തിത്തരികയും ചെയ്തിരിക്കുന്നു.",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (94:1-4)",
+      sourceUrl: "https://amanithafseer.com/94_001-008/#94:1-4",
     },
     summary:
       "Allah gently reminds the Prophet of past favors, how He expanded his chest with clarity, lifted from him heavy burdens that weighed upon him, and elevated his standing.",

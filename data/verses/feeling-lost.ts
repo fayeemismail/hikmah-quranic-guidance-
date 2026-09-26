@@ -16,6 +16,12 @@ export const feelingLostVerses: QuranVerse[] = [
       text: "And He found you lost and guided [you].",
       source: "Saheeh International",
     },
+    malayalamTranslation: {
+      text: "നിന്നെ അവൻ വഴി അറിയാത്തവനായി കാണുകയും, എന്നിട്ട് (നിനക്ക്) മാർഗ്ഗദർശനം നൽകുകയും ചെയ്തിരിക്കുന്നു.",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (93:7)",
+      sourceUrl: "https://amanithafseer.com/93_001-011/",
+    },
     summary:
       "This verse reminds the Prophet of how Allah guided him when he was seeking truth and direction before receiving revelation.",
     context:
@@ -31,6 +37,7 @@ export const feelingLostVerses: QuranVerse[] = [
       "Feeling unanchored or uncertain about your direction is a common human experience. This passage offers a reminder that clarity often begins with acknowledging our need for guidance and remaining open to seeking it.",
     themes: ["feeling-lost"],
   },
+
   {
     id: "fl-2",
     surah: {
@@ -48,6 +55,12 @@ export const feelingLostVerses: QuranVerse[] = [
         "And when My servants ask you, [O Muhammad], concerning Me - indeed I am near. I respond to the invocation of the supplicant when he calls upon Me. So let them respond to Me [by obedience] and believe in Me that they may be [rightly] guided.",
       source: "Saheeh International",
     },
+    malayalamTranslation: {
+      text: "(നബിയേ) എന്റെ അടിയാന്മാർ എന്നെപ്പറ്റി നിന്നോട് ചോദിച്ചാൽ, നിശ്ചയമായും ഞാൻ സമീപസ്ഥനാകുന്നു (എന്നു പറയുക). എന്നെ വിളി(ച്ചു പ്രാർത്ഥി)ച്ചാൽ ഞാൻ വിളി(ച്ചു പ്രാർത്ഥി)ക്കുന്നവന്റെ വിളിക്ക് ഉത്തരം നൽകുന്നതാണ്. എന്നാൽ, അവർ എനിക്ക് [എന്റെ വിളിക്ക്] ഉത്തരം ചെയ്യുകയും, എന്നിൽ അവർ വിശ്വസിക്കുകയും ചെയ്തുകൊള്ളട്ടെ; അവർ നേർവഴി പ്രാപിച്ചേക്കുന്നതാണ്.",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (2:186)",
+      sourceUrl: "https://amanithafseer.com/2_183-210/",
+    },
     summary:
       "Allah assures humanity of His nearness and promises to answer those who sincerely call upon Him, so that they may attain right guidance and moral clarity.",
     context:
@@ -63,6 +76,7 @@ export const feelingLostVerses: QuranVerse[] = [
       "When feeling isolated or unsure where to turn, direct and humble prayer provides a sanctuary where questions and uncertainties can be voiced with sincerity.",
     themes: ["feeling-lost"],
   },
+
   {
     id: "fl-3",
     surah: {
@@ -80,6 +94,12 @@ export const feelingLostVerses: QuranVerse[] = [
         "[Mention] when the youths retreated to the cave and said, 'Our Lord, grant us from Yourself mercy and prepare for us from our affair right guidance.'",
       source: "Saheeh International",
     },
+    malayalamTranslation: {
+      text: "(ആ) യുവാക്കൾ ഗുഹയിലേക്കു (ചെന്നു) അഭയം പ്രാപിച്ചപ്പോൾ അവർ പറഞ്ഞു: 'ഞങ്ങളുടെ റബ്ബേ! ഞങ്ങൾക്ക് നിന്റെ പക്കൽ നിന്നു കാരുണ്യം നൽകേണമേ! ഞങ്ങളുടെ കാര്യത്തിൽ നീ ഞങ്ങൾക്ക് നേർമ്മാർഗ്ഗം സജ്ജമാക്കിത്തരുകയും ചെയ്യേണമേ!!'",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (18:10)",
+      sourceUrl: "https://amanithafseer.com/18_001-017/",
+    },
     summary:
       "A group of young believers facing complete uncertainty retreats to safety, praying to Allah for mercy and practical wisdom in their situation.",
     context:
@@ -95,6 +115,7 @@ export const feelingLostVerses: QuranVerse[] = [
       "Even when you cannot see the full path ahead, asking for moral discernment and calm guidance allows you to take the next principled step.",
     themes: ["feeling-lost"],
   },
+
   {
     id: "fl-4",
     surah: {
@@ -127,6 +148,7 @@ export const feelingLostVerses: QuranVerse[] = [
       "Clarity is rarely discovered in passive waiting; it often unfolds gradually as a person takes sincere, constructive steps toward what is good.",
     themes: ["feeling-lost"],
   },
+
   {
     id: "fl-5",
     surah: {
@@ -139,11 +161,17 @@ export const feelingLostVerses: QuranVerse[] = [
       end: 6,
     },
     arabic:
-      "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ۝ ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+      "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ  ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
     translation: {
       text:
         "It is You we worship and You we ask for help. Guide us to the straight path.",
       source: "Saheeh International",
+    },
+    malayalamTranslation: {
+      text: "നിന്നെ മാത്രം ഞങ്ങൾ ആരാധിക്കുന്നു; നിന്നോടുമാത്രം ഞങ്ങൾ സഹായം തേടുകയും ചെയ്യുന്നു. ചൊവ്വായ പാതയിൽ നീ ഞങ്ങളെ വഴി ചേർക്കേണമേ!-",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (1:5-6)",
+      sourceUrl: "https://amanithafseer.com/1_001-007/",
     },
     summary:
       "The central petition of the opening chapter of the Qur'an, asking Allah for guidance and support in staying on the upright path.",
@@ -160,6 +188,7 @@ export const feelingLostVerses: QuranVerse[] = [
       "Guidance is an ongoing daily process rather than a one-time achievement. Repeating this prayer can be a grounding reminder to seek clarity in every stage of life.",
     themes: ["feeling-lost"],
   },
+
   {
     id: "fl-6",
     surah: {
@@ -177,6 +206,12 @@ export const feelingLostVerses: QuranVerse[] = [
         "Allah is the ally of those who believe. He brings them out from darknesses into the light.",
       source: "Saheeh International",
     },
+    malayalamTranslation: {
+      text: "അല്ലാഹു വിശ്വസിച്ചവരുടെ ബന്ധു (അഥവാ രക്ഷാധികാരി) ആകുന്നു;- അവരെ അവൻ അന്ധകാരങ്ങളിൽ നിന്ന് പ്രകാശത്തിലേക്ക് പുറത്തുകൊണ്ടു വരുന്നു.",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (2:257)",
+      sourceUrl: "https://amanithafseer.com/2_243-257/",
+    },
     summary:
       "Allah acts as a supportive guardian for those who believe, leading them out of confusion and darkness into clarity and light.",
     context:
@@ -192,6 +227,7 @@ export const feelingLostVerses: QuranVerse[] = [
       "When thoughts feel clouded and decisions seem difficult, this verse offers reassurance that seeking divine guidance can help bring clarity out of confusion.",
     themes: ["feeling-lost"],
   },
+
   {
     id: "fl-7",
     surah: {
@@ -209,6 +245,12 @@ export const feelingLostVerses: QuranVerse[] = [
         "Say, 'Indeed, the guidance of Allah is the [only true] guidance; and we have been commanded to submit to the Lord of the worlds.'",
       source: "Saheeh International",
     },
+    malayalamTranslation: {
+      text: "പറയുക: 'അല്ലാഹുവിനു പുറമെ, ഞങ്ങൾക്ക് ഉപകാരം ചെയ്യാത്തതും, ഉപദ്രവം ചെയ്യാത്തതുമായ വസ്തുവിനെ ഞങ്ങൾ വിളി(ച്ചു പ്രാർത്ഥി)ക്കുകയോ?! ഞങ്ങൾ നേർമാർഗ്ഗത്തിലാക്കിയതിനുശേഷം ഞങ്ങൾ പിന്നോട്ട് മടങ്ങുകയോ?! ... പറയുക: നിശ്ചയമായും അല്ലാഹുവിന്റെ നേർമാർഗ്ഗം തന്നെയാണ് (യഥാർത്ഥ) നേർമാർഗ്ഗം. ലോകരുടെ രക്ഷിതാവിന് കീഴൊതുങ്ങുവാൻ ഞങ്ങൾ കൽപിക്കപ്പെട്ടിരിക്കുന്നു.'",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (6:71)",
+      sourceUrl: "https://amanithafseer.com/006_071-090/",
+    },
     summary:
       "This verse emphasizes that true and enduring guidance originates with Allah, directing believers to surrender their hearts to Him.",
     context:
@@ -224,6 +266,7 @@ export const feelingLostVerses: QuranVerse[] = [
       "When pulled in competing directions by advice, opinions, and personal doubts, returning to foundational ethical principles can provide a steady compass.",
     themes: ["feeling-lost"],
   },
+
   {
     id: "fl-8",
     surah: {
@@ -256,6 +299,7 @@ export const feelingLostVerses: QuranVerse[] = [
       "Feeling lost can leave a person feeling unsettled inside. Approaching the Qur'an as a source of reflection and guidance can help bring calm and direction.",
     themes: ["feeling-lost"],
   },
+
   {
     id: "fl-9",
     surah: {
@@ -273,6 +317,12 @@ export const feelingLostVerses: QuranVerse[] = [
         "[This is] a Book which We have revealed to you, [O Muhammad], that you might bring mankind out of darknesses into the light by permission of their Lord - to the path of the Exalted in Might, the Praiseworthy.",
       source: "Saheeh International",
     },
+    malayalamTranslation: {
+      text: "'അലിഫ് - ലാം - റാ' (നബിയേ) നിനക്കു നാം അവതരിപ്പിച്ചു തന്ന ഒരു ഗ്രന്ഥമാകുന്നു (ഇതു); മനുഷ്യരെ അന്ധകാരങ്ങളിൽനിന്നു നീ (പുറത്തുവരുത്തി) പ്രകാശത്തിലേക്കു കൊണ്ടുവരുവാൻ വേണ്ടി; അവരുടെ റബ്ബിന്റെ അനുമതി പ്രകാരം. അതായതു, പ്രതാപശാലിയും സ്തുത്യർഹനുമായുള്ളവന്റെ പാതയിലേക്കു (കൊണ്ടുവരുവാൻ);",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (14:1)",
+      sourceUrl: "https://amanithafseer.com/014_001-021/",
+    },
     summary:
       "The stated purpose of scripture is to guide humanity from states of spiritual obscurity and confusion into the light of truth and clear direction.",
     context:
@@ -288,6 +338,7 @@ export const feelingLostVerses: QuranVerse[] = [
       "We are not expected to figure out every aspect of life in total isolation; sacred guidance exists to help navigate complex decisions with clarity.",
     themes: ["feeling-lost"],
   },
+
   {
     id: "fl-10",
     surah: {

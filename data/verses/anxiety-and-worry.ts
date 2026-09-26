@@ -51,6 +51,13 @@ export const anxietyAndWorryVerses: QuranVerse[] = [
         "[Moses] said, 'My Lord, expand for me my breast [with assurance], and ease for me my task, and untie the knot from my tongue, that they may understand my speech.'",
       source: "Saheeh International",
     },
+    malayalamTranslation: {
+      text:
+        "അദ്ദേഹം പറഞ്ഞു: 'എന്റെ റബ്ബേ! എന്റെ നെഞ്ചു [ഹൃദയം] എനിക്കു നീ വിശാലപ്പെടുത്തിത്തരേണമേ! 'എന്റെ കാര്യം എനിക്കു എളുപ്പമാക്കിത്തരുകയും ചെയ്യേണമേ! 'എന്റെ നാവിൽനിന്നും നീ കെട്ടഴിച്ചു തരുകയും ചെയ്യേണമേ!- 'എന്നാലവർ [ജനങ്ങൾ] എന്റെ വാക്കു ഗ്രഹിച്ചു കൊള്ളും.",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (20:25-28)",
+      sourceUrl: "https://amanithafseer.com/20_025-054/",
+    },
     summary:
       "Prophet Moses prays for emotional composure, courage, and divine ease before facing a daunting and difficult responsibility.",
     context:
@@ -122,6 +129,13 @@ export const anxietyAndWorryVerses: QuranVerse[] = [
         "Allah does not charge a soul except [with that within] its capacity. It will have [the consequence of] what [good] it has gained, and it will bear [the consequence of] what [evil] it has earned...",
       source: "Saheeh International",
     },
+    malayalamTranslation: {
+      text:
+        "ഒരു ആത്മാവിനോടും [ഒരുവ്യക്തിയോടും] അതിന് നിവൃത്തിയുള്ളതല്ലാതെ അല്ലാഹു ശാസിക്കുകയില്ല. അത് സമ്പാദിച്ചത് (നന്മ) അതിന്തന്നെയായിരിക്കും; അത് സമ്പാദിച്ചു (തിന്മ) കൂട്ടിയതും അതിന്റെ മേൽതന്നെയായിരിക്കും. ഞങ്ങൾക്ക് പൊറുത്തു തരുകയും വേണമേ! ഞങ്ങളോട് കരുണ ചെയ്യുകയും ചെയ്യേണമേ! നീ ഞങ്ങളുടെ യജമാനനാകുന്നു. ആകയാൽ, അവിശ്വാസികൾക്കെതിരെ ഞങ്ങളെ നീ സഹായിക്കേണമേ!",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (2:286)",
+      sourceUrl: "https://amanithafseer.com/2_267-286/",
+    },
     summary:
       "This passage establishes that Allah never burdens any human being beyond what they are genuinely equipped to bear.",
     context:
@@ -153,6 +167,12 @@ export const anxietyAndWorryVerses: QuranVerse[] = [
       text:
         "O you who have believed, seek help through patience and prayer. Indeed, Allah is with the patient.",
       source: "Saheeh International",
+    },
+    malayalamTranslation: {
+      text: "ഹേ, വിശ്വസിച്ചവരേ, ക്ഷമയും നമസ്‌കാരവും വഴി നിങ്ങള്‍ സഹായം തേടിക്കൊള്ളുവിന്‍ നിശ്ചയമായും, അല്ലാഹു ക്ഷമിക്കുന്നവരോടൊപ്പമായിരിക്കും.",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (2:153)",
+      sourceUrl: "https://amanithafseer.com/2_153-182/#2:153",
     },
     summary:
       "Believers are directed to seek strength and stability through patient endurance and prayer during times of trial, with the assurance of Allah's support.",

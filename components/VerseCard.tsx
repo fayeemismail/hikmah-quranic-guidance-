@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { QuranVerse } from "@/types/guidance";
 import ArabicVerse from "./ArabicVerse";
 import Translation from "./Translation";
+import MalayalamTranslation from "./MalayalamTranslation";
 import VerseSummary from "./VerseSummary";
 import VerseContext from "./VerseContext";
 import ScholarlyReferences from "./ScholarlyReferences";
@@ -90,6 +91,17 @@ export default function VerseCard({
         <Translation
           text={verse.translation.text}
           source={verse.translation.source}
+        />
+      </motion.div>
+
+      {/* Sourced Malayalam Meaning (Separated & Attributed) */}
+      <motion.div
+        initial={{ opacity: 0, y: 8 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.45, delay: 0.41, ease: "easeOut" }}
+      >
+        <MalayalamTranslation
+          malayalamTranslation={verse.malayalamTranslation}
         />
       </motion.div>
 

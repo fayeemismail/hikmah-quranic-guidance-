@@ -14,6 +14,12 @@ export interface QuranVerse {
     text: string;
     source: string;
   };
+  malayalamTranslation?: {
+    text: string;
+    source: string;
+    reference?: string;
+    sourceUrl?: string;
+  } | null;
   summary: string;
   context: string;
   scholarlyReference?: {
@@ -33,6 +39,7 @@ export interface QuranVerse {
     quran?: string;
     tafsir?: string;
     hadith?: string;
+    malayalam?: string;
   };
 }
 

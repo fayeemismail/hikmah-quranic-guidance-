@@ -13,7 +13,7 @@ export const financialDifficultyVerses: QuranVerse[] = [
       end: 3,
     },
     arabic:
-      "وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مَخْرَجًا ۝ وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَهو حَسْبُهُۥ",
+      "وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مَخْرَجًا  وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَهُوَ حَسْبُهُۥ",
     translation: {
       text:
         "...And whoever fears Allah - He will make for him a way out, and will provide for him from where he does not expect. And whoever relies upon Allah - then He is sufficient for him...",
@@ -34,6 +34,7 @@ export const financialDifficultyVerses: QuranVerse[] = [
       "During financial constriction, preserving ethical principles and continuing to put forth honest effort allows relief to arrive from sources you may not currently anticipate.",
     themes: ["financial-difficulty"],
   },
+
   {
     id: "fd-2",
     surah: {
@@ -50,6 +51,13 @@ export const financialDifficultyVerses: QuranVerse[] = [
       text:
         "And there is no creature on earth but that upon Allah is its provision, and He knows its place of dwelling and place of storage. All is in a clear register.",
       source: "Saheeh International",
+    },
+    malayalamTranslation: {
+      text:
+        "ഭൂമിയിലുള്ള ഒരു ജീവജന്തുവും തന്നെ, അവയുടെ ഉപജീവനം (അഥവാ ആഹാരം) അല്ലാഹുവിന്റെ മേൽ (ബാധ്യത) ഇല്ലാതെയില്ല. അവയുടെ വാസസ്ഥാനവും, അവയുടെ സൂക്ഷിപ്പുസ്ഥാനവും അവൻ അറിയുകയും ചെയ്യുന്നു. എല്ലാം (തന്നെ) സ്പഷ്ടമായ ഒരു (രേഖാ) ഗ്രന്ഥത്തിലുണ്ട്.",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (11:6)",
+      sourceUrl: "https://amanithafseer.com/011_006-027/",
     },
     summary:
       "This verse offers cosmic reassurance that every living creature on earth is known to Allah and has its sustenance accounted for by the Creator.",
@@ -73,6 +81,7 @@ export const financialDifficultyVerses: QuranVerse[] = [
       "Reflecting on how all of nature is sustained can help ease existential dread during lean periods, reminding us that sustenance is an ongoing reality that supports continued responsible effort.",
     themes: ["financial-difficulty"],
   },
+
   {
     id: "fd-3",
     surah: {
@@ -105,6 +114,7 @@ export const financialDifficultyVerses: QuranVerse[] = [
       "Living realistically within current constraints is honorable. Do not measure your human worth by temporary financial hardship; seasons of difficulty are not permanent.",
     themes: ["financial-difficulty"],
   },
+
   {
     id: "fd-4",
     surah: {
@@ -122,6 +132,13 @@ export const financialDifficultyVerses: QuranVerse[] = [
         "Satan threatens you with poverty and orders you to immorality, while Allah promises you forgiveness from Him and bounty. And Allah is all-Encompassing and Knowing.",
       source: "Saheeh International",
     },
+    malayalamTranslation: {
+      text:
+        "പിശാച് നിങ്ങളോട് ദാരിദ്ര്യത്തെ വാഗ്ദത്തം ചെയ്യുകയും, നിങ്ങളോട് നീചപ്രവൃത്തിക്ക് കൽപിക്കുകയും ചെയ്യുന്നു. അല്ലാഹുവാകട്ടെ, അവന്റെ പക്കൽ നിന്നുള്ള പാപമോചനവും, ദയവും (അഥവാ അനുഗ്രഹവും) നിങ്ങളോട് വാഗ്ദത്തംചെയ്യുന്നു. അല്ലാഹു വിശാലനും, (എല്ലാം) അറിയുന്നവനുമാണ്.",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (2:268)",
+      sourceUrl: "https://amanithafseer.com/2_267-286/",
+    },
     summary:
       "The verse contrasts the whispers of fear and scarcity with Allah's promise of forgiveness and abundance, encouraging generosity and trust.",
     context:
@@ -137,6 +154,7 @@ export const financialDifficultyVerses: QuranVerse[] = [
       "Financial anxiety often inflates temporary hardship into terrifying visions of ruin. Cultivating gratitude for present basics while maintaining modest generosity fosters inner peace.",
     themes: ["financial-difficulty"],
   },
+
   {
     id: "fd-5",
     surah: {
@@ -154,6 +172,13 @@ export const financialDifficultyVerses: QuranVerse[] = [
         "Indeed, your Lord extends provision for whom He wills and restricts [it]. Indeed He is ever, concerning His servants, Acquainted and Seeing.",
       source: "Saheeh International",
     },
+    malayalamTranslation: {
+      text:
+        "നിശ്ചയമായും അല്ലാഹു, അവൻ ഉദ്ദേശിക്കുന്നവർക്കു ഉപജീവനം (അഥവാ ആഹാരം) വിശാലമാക്കുകയും, കണക്കാ(ക്കി കുടുസ്സാ)ക്കുകയും ചെയ്യുന്നു. നിശ്ചയമായും അവൻ, തന്റെ അടിയാന്മാരെപ്പറ്റി സൂക്ഷ്മജ്ഞനും, കണ്ടറിയുന്നവനുമാകുന്നു.",
+      source: "Amani Moulavi",
+      reference: "വിശുദ്ധ ഖുർആൻ വിവരണം (17:30)",
+      sourceUrl: "https://amanithafseer.com/17_023-040/",
+    },
     summary:
       "The verse teaches that fluctuations in wealth and provision are governed by divine wisdom, not by arbitrary chance or personal worth.",
     context:
@@ -169,6 +194,7 @@ export const financialDifficultyVerses: QuranVerse[] = [
       "A lean financial period does not mean you have been abandoned. Recognizing financial cycles as temporary tests can free your mind from self-blame.",
     themes: ["financial-difficulty"],
   },
+
   {
     id: "fd-6",
     surah: {
@@ -201,6 +227,7 @@ export const financialDifficultyVerses: QuranVerse[] = [
       "Panic often prompts a person to withdraw completely. Even in tight circumstances, small acts of kindness and maintaining family support bring blessing into what remains.",
     themes: ["financial-difficulty"],
   },
+
   {
     id: "fd-7",
     surah: {
@@ -213,7 +240,7 @@ export const financialDifficultyVerses: QuranVerse[] = [
       end: 23,
     },
     arabic:
-      "وَفِى ٱلسَّمَآءِ رِزْقُكُمْ وَمَا تُوعَدُونَ ۝ فَوَرَبِّ ٱلسَّمَآءِ وَٱلْأَرْضِ إِنَّهُۥ لَحَقٌّۭ مِّثْلَ مَآ أَنَّكُمْ تَنطِقُونَ",
+      "وَفِى ٱلسَّمَآءِ رِزْقُكُمْ وَمَا تُوعَدُونَ  فَوَرَبِّ ٱلسَّمَآءِ وَٱلْأَرْضِ إِنَّهُۥ لَحَقٌّۭ مِّثْلَ مَآ أَنَّكُمْ تَنطِقُونَ",
     translation: {
       text:
         "And in the heaven is your provision and whatever you are promised. Then by the Lord of the heaven and the earth, indeed, it is truth - just as [it is truth] that you speak.",
@@ -234,6 +261,7 @@ export const financialDifficultyVerses: QuranVerse[] = [
       "Work with diligence and dignity, but let your heart rest on the assurance that what has been decreed for you will reach you.",
     themes: ["financial-difficulty"],
   },
+
   {
     id: "fd-8",
     surah: {
@@ -266,6 +294,7 @@ export const financialDifficultyVerses: QuranVerse[] = [
       "Reliance upon Allah does not mean waiting passively; it means moving your feet, seeking opportunities, and leaving the ultimate results to Him.",
     themes: ["financial-difficulty"],
   },
+
   {
     id: "fd-9",
     surah: {
@@ -278,7 +307,7 @@ export const financialDifficultyVerses: QuranVerse[] = [
       end: 12,
     },
     arabic:
-      "فَقُلْتُ ٱسْتَغْفِرُوا۟ رَبَّكُمْ إِنَّهُۥ كَانَ غَفَّارًۭا ۝ يُرْسِلِ ٱلسَّمَآءَ عَلَيْكُم مِّدْرَارًۭا ۝ وَيُمْدِدْكُم بِأَمْوَٰلٍۢ وَبَنِينَ وَيَجْعَل لَّكُمْ جَنَّٰتٍۢ وَيَجْعَل لَّكُمْ أَنْهَٰرًۭا",
+      "فَقُلْتُ ٱسْتَغْفِرُوا۟ رَبَّكُمْ إِنَّهُۥ كَانَ غَفَّارًۭا  يُرْسِلِ ٱلسَّمَآءَ عَلَيْكُم مِّدْرَارًۭا  وَيُمْدِدْكُم بِأَمْوَٰلٍۢ وَبَنِينَ وَيَجْعَل لَّكُمْ جَنَّٰتٍۢ وَيَجْعَل لَّكُمْ أَنْهَٰرًۭا",
     translation: {
       text:
         "And said, 'Ask forgiveness of your Lord. Indeed, He is ever a perpetual Forgiver. He will send [rain from] the sky upon you in [continuing] showers and give you increase in wealth and children and provide for you gardens and provide for you rivers.'",
